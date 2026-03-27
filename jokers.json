@@ -1,0 +1,2074 @@
+[
+  {
+    "id": "j_joker",
+    "name": "Joker",
+    "rarity": "common",
+    "tier": "S",
+    "type": "money",
+    "effect": "每回合结束时，手里每有1张Lucky Card，获得$4",
+    "cost": 4,
+    "tags": [
+      "经济",
+      "幸运牌"
+    ],
+    "synergy": [
+      "幸运牌系列",
+      "刷钱"
+    ]
+  },
+  {
+    "id": "j_gros_michel",
+    "name": "Gros Michel",
+    "rarity": "common",
+    "tier": "S",
+    "type": "money",
+    "effect": "每回合获得$5",
+    "cost": 5,
+    "tags": [
+      "经济",
+      "稳定"
+    ],
+    "synergy": [
+      "经济流",
+      "任意"
+    ]
+  },
+  {
+    "id": "j_eight_ball",
+    "name": "Eight Ball",
+    "rarity": "common",
+    "tier": "S",
+    "type": "mult",
+    "effect": "每回合，打出的最后一张牌每有1个星标，+5 Mult",
+    "cost": 5,
+    "tags": [
+      "倍数",
+      "稳定"
+    ],
+    "synergy": [
+      "星标流"
+    ]
+  },
+  {
+    "id": "j_egg",
+    "name": "Egg",
+    "rarity": "common",
+    "tier": "S",
+    "type": "money",
+    "effect": "每回合，手牌消耗完时获得$3",
+    "cost": 3,
+    "tags": [
+      "经济",
+      "消耗"
+    ],
+    "synergy": [
+      "滤牌流"
+    ]
+  },
+  {
+    "id": "j_mr_bones",
+    "name": "Mr. Bones",
+    "rarity": "common",
+    "tier": "S",
+    "type": "special",
+    "effect": "跳过休息阶段不会失去金钱",
+    "cost": 4,
+    "tags": [
+      "特殊",
+      "跳过"
+    ],
+    "synergy": [
+      "跳过流"
+    ]
+  },
+  {
+    "id": "j_burglar",
+    "name": "Burglar",
+    "rarity": "common",
+    "tier": "S",
+    "type": "money",
+    "effect": "跳过休息阶段时，获得$20和1张随机Lucky Card",
+    "cost": 6,
+    "tags": [
+      "经济",
+      "幸运牌"
+    ],
+    "synergy": [
+      "跳过流"
+    ]
+  },
+  {
+    "id": "j_credit_card",
+    "name": "Credit Card",
+    "rarity": "common",
+    "tier": "S",
+    "type": "money",
+    "effect": "允许负金钱购买（上限-$20）",
+    "cost": 4,
+    "tags": [
+      "经济",
+      "超前消费"
+    ],
+    "synergy": [
+      "经济流"
+    ]
+  },
+  {
+    "id": "j_lucky_card",
+    "name": "Lucky Card",
+    "rarity": "common",
+    "tier": "S",
+    "type": "mult",
+    "effect": "每回合，有10%概率+$20，+40 Mult",
+    "cost": 4,
+    "tags": [
+      "概率",
+      "爆发"
+    ],
+    "synergy": [
+      "幸运流"
+    ]
+  },
+  {
+    "id": "j_sweetheart",
+    "name": "Sweetheart",
+    "rarity": "common",
+    "tier": "S",
+    "type": "money",
+    "effect": "每回合第一次卖掉卡牌获得双倍金钱",
+    "cost": 4,
+    "tags": [
+      "经济",
+      "卖牌"
+    ],
+    "synergy": [
+      "经济流"
+    ]
+  },
+  {
+    "id": "j_burst",
+    "name": "Burst",
+    "rarity": "common",
+    "tier": "A",
+    "type": "hand",
+    "effect": "手牌上限+2",
+    "cost": 4,
+    "tags": [
+      "手牌",
+      "扩展"
+    ],
+    "synergy": [
+      "多牌流"
+    ]
+  },
+  {
+    "id": "j_earring",
+    "name": "Earring",
+    "rarity": "common",
+    "tier": "A",
+    "type": "mult",
+    "effect": "每回合，打出的第一张牌获得+4 Mult",
+    "cost": 3,
+    "tags": [
+      "倍数",
+      "稳定"
+    ],
+    "synergy": [
+      "任意"
+    ]
+  },
+  {
+    "id": "j_abstract",
+    "name": "Abstract",
+    "rarity": "common",
+    "tier": "A",
+    "type": "mult",
+    "effect": "每有3张Joker，获得+15 Mult",
+    "cost": 4,
+    "tags": [
+      "倍数",
+      "组合"
+    ],
+    "synergy": [
+      "Joker数量流"
+    ]
+  },
+  {
+    "id": "j_three_bases",
+    "name": "3 Bases",
+    "rarity": "common",
+    "tier": "A",
+    "type": "chips",
+    "effect": "每回合，打出的前3张牌各+30 Chips",
+    "cost": 5,
+    "tags": [
+      "筹码",
+      "稳定"
+    ],
+    "synergy": [
+      "多牌流"
+    ]
+  },
+  {
+    "id": "j_steel_joker",
+    "name": "Steel Joker",
+    "rarity": "common",
+    "tier": "A",
+    "type": "mult",
+    "effect": "手里每有1张钢化牌，+5 Mult",
+    "cost": 4,
+    "tags": [
+      "倍数",
+      "钢化"
+    ],
+    "synergy": [
+      "钢化流"
+    ]
+  },
+  {
+    "id": "j_fortune_teller",
+    "name": "Fortune Teller",
+    "rarity": "common",
+    "tier": "A",
+    "type": "mult",
+    "effect": "每回合结束时，每有1张已触发的塔罗牌，获得+3 Mult",
+    "cost": 4,
+    "tags": [
+      "倍数",
+      "塔罗"
+    ],
+    "synergy": [
+      "塔罗流"
+    ]
+  },
+  {
+    "id": "j_radiator",
+    "name": "Radiator",
+    "rarity": "common",
+    "tier": "A",
+    "type": "chips",
+    "effect": "每回合，随机+10到30 Chips",
+    "cost": 4,
+    "tags": [
+      "筹码",
+      "随机"
+    ],
+    "synergy": [
+      "任意"
+    ]
+  },
+  {
+    "id": "j_door",
+    "name": "Door",
+    "rarity": "common",
+    "tier": "A",
+    "type": "money",
+    "effect": "每回合第一次进入商店时，获得$3",
+    "cost": 4,
+    "tags": [
+      "经济",
+      "商店"
+    ],
+    "synergy": [
+      "商店流"
+    ]
+  },
+  {
+    "id": "j_plasma_globe",
+    "name": "Plasma Globe",
+    "rarity": "common",
+    "tier": "A",
+    "type": "mult",
+    "effect": "每回合，有25%概率触发两次效果",
+    "cost": 5,
+    "tags": [
+      "概率",
+      "爆发"
+    ],
+    "synergy": [
+      "概率流"
+    ]
+  },
+  {
+    "id": "j_lunch",
+    "name": "Lunch",
+    "rarity": "common",
+    "tier": "A",
+    "type": "money",
+    "effect": "每回合获得$1",
+    "cost": 3,
+    "tags": [
+      "经济",
+      "微弱"
+    ],
+    "synergy": [
+      "经济流"
+    ]
+  },
+  {
+    "id": "j_ganon",
+    "name": "Ganon",
+    "rarity": "common",
+    "tier": "B",
+    "type": "mult",
+    "effect": "每回合，打出的第一张A获得+20 Mult",
+    "cost": 4,
+    "tags": [
+      "A牌",
+      "倍数"
+    ],
+    "synergy": [
+      "A牌流"
+    ]
+  },
+  {
+    "id": "j_queen",
+    "name": "Queen",
+    "rarity": "common",
+    "tier": "B",
+    "type": "mult",
+    "effect": "每回合，打出的第一张Q获得+20 Mult",
+    "cost": 4,
+    "tags": [
+      "Q牌",
+      "倍数"
+    ],
+    "synergy": [
+      "人头牌流"
+    ]
+  },
+  {
+    "id": "j_king",
+    "name": "King",
+    "rarity": "common",
+    "tier": "B",
+    "type": "mult",
+    "effect": "每回合，打出的第一张K获得+20 Mult",
+    "cost": 4,
+    "tags": [
+      "K牌",
+      "倍数"
+    ],
+    "synergy": [
+      "人头牌流"
+    ]
+  },
+  {
+    "id": "j_jack",
+    "name": "Jack",
+    "rarity": "common",
+    "tier": "B",
+    "type": "mult",
+    "effect": "每回合，打出的第一张J获得+20 Mult",
+    "cost": 4,
+    "tags": [
+      "J牌",
+      "倍数"
+    ],
+    "synergy": [
+      "人头牌流"
+    ]
+  },
+  {
+    "id": "j_arrow",
+    "name": "Arrow",
+    "rarity": "common",
+    "tier": "B",
+    "type": "chips",
+    "effect": "每回合，打出的第一张2-5获得+100 Chips",
+    "cost": 4,
+    "tags": [
+      "低牌",
+      "筹码"
+    ],
+    "synergy": [
+      "低牌流"
+    ]
+  },
+  {
+    "id": "j_hand",
+    "name": "Hand",
+    "rarity": "common",
+    "tier": "B",
+    "type": "chips",
+    "effect": "每回合，打出的最后一张6-10获得+40 Chips",
+    "cost": 4,
+    "tags": [
+      "中牌",
+      "筹码"
+    ],
+    "synergy": [
+      "中牌流"
+    ]
+  },
+  {
+    "id": "j_roller",
+    "name": "Roller",
+    "rarity": "common",
+    "tier": "B",
+    "type": "chips",
+    "effect": "每回合，打出的第一张和最后一张牌各+30 Chips",
+    "cost": 4,
+    "tags": [
+      "筹码",
+      "稳定"
+    ],
+    "synergy": [
+      "任意"
+    ]
+  },
+  {
+    "id": "j_inoker",
+    "name": "inoJoker",
+    "rarity": "common",
+    "tier": "B",
+    "type": "chips",
+    "effect": "每回合，打出的第一张人头牌（J/Q/K）获得+60 Chips",
+    "cost": 4,
+    "tags": [
+      "人头牌",
+      "筹码"
+    ],
+    "synergy": [
+      "人头牌流"
+    ]
+  },
+  {
+    "id": "j_supernova",
+    "name": "Supernova",
+    "rarity": "common",
+    "tier": "B",
+    "type": "mult",
+    "effect": "打出顺子时，+30 Mult",
+    "cost": 4,
+    "tags": [
+      "顺子",
+      "倍数"
+    ],
+    "synergy": [
+      "顺子流"
+    ]
+  },
+  {
+    "id": "j_chaos",
+    "name": "Chaos",
+    "rarity": "common",
+    "tier": "B",
+    "type": "money",
+    "effect": "每回合，随机获得$1-$4",
+    "cost": 3,
+    "tags": [
+      "经济",
+      "随机"
+    ],
+    "synergy": [
+      "随机流"
+    ]
+  },
+  {
+    "id": "j_misprint",
+    "name": "Misprint",
+    "rarity": "common",
+    "tier": "B",
+    "type": "mult",
+    "effect": "随机+10到+40 Mult",
+    "cost": 3,
+    "tags": [
+      "倍数",
+      "随机"
+    ],
+    "synergy": [
+      "随机流"
+    ]
+  },
+  {
+    "id": "j_ceremonial",
+    "name": "Ceremonial",
+    "rarity": "common",
+    "tier": "B",
+    "type": "mult",
+    "effect": "每回合，随机+5到+15 Mult",
+    "cost": 3,
+    "tags": [
+      "倍数",
+      "随机"
+    ],
+    "synergy": [
+      "随机流"
+    ]
+  },
+  {
+    "id": "j_ramen",
+    "name": "Ramen",
+    "rarity": "common",
+    "tier": "B",
+    "type": "xmult",
+    "effect": "手牌全为同一花色时，所有Joker获得X1.5",
+    "cost": 5,
+    "tags": [
+      "同花",
+      "倍率"
+    ],
+    "synergy": [
+      "同花流"
+    ]
+  },
+  {
+    "id": "j_walkie_talkie",
+    "name": "Walkie Talkie",
+    "rarity": "common",
+    "tier": "B",
+    "type": "mult",
+    "effect": "每回合，第一张和最后一张牌各+10 Mult",
+    "cost": 4,
+    "tags": [
+      "倍数",
+      "稳定"
+    ],
+    "synergy": [
+      "任意"
+    ]
+  },
+  {
+    "id": "j_bull",
+    "name": "Bull",
+    "rarity": "common",
+    "tier": "B",
+    "type": "chips",
+    "effect": "每回合，打出的手牌每有1张，+2 Chips",
+    "cost": 4,
+    "tags": [
+      "筹码",
+      "多牌"
+    ],
+    "synergy": [
+      "多牌流"
+    ]
+  },
+  {
+    "id": "j_discount",
+    "name": "Discount",
+    "rarity": "common",
+    "tier": "B",
+    "type": "money",
+    "effect": "购买卡牌时花费减半",
+    "cost": 4,
+    "tags": [
+      "经济",
+      "商店"
+    ],
+    "synergy": [
+      "商店流"
+    ]
+  },
+  {
+    "id": "j_ticket",
+    "name": "Ticket",
+    "rarity": "common",
+    "tier": "B",
+    "type": "money",
+    "effect": "每回合有25%概率+$10",
+    "cost": 3,
+    "tags": [
+      "经济",
+      "概率"
+    ],
+    "synergy": [
+      "经济流"
+    ]
+  },
+  {
+    "id": "j_garbage",
+    "name": "Garbage",
+    "rarity": "common",
+    "tier": "B",
+    "type": "chips",
+    "effect": "每回合，随机+20到+50 Chips",
+    "cost": 3,
+    "tags": [
+      "筹码",
+      "随机"
+    ],
+    "synergy": [
+      "随机流"
+    ]
+  },
+  {
+    "id": "j_trick",
+    "name": "Trick",
+    "rarity": "common",
+    "tier": "B",
+    "type": "money",
+    "effect": "每回合第一次打出对子时，获得$3",
+    "cost": 3,
+    "tags": [
+      "经济",
+      "对子"
+    ],
+    "synergy": [
+      "对子流"
+    ]
+  },
+  {
+    "id": "j_banner",
+    "name": "Banner",
+    "rarity": "common",
+    "tier": "C",
+    "type": "chips",
+    "effect": "每有$10金钱，+1 Chip",
+    "cost": 4,
+    "tags": [
+      "筹码",
+      "经济"
+    ],
+    "synergy": [
+      "经济筹码流"
+    ]
+  },
+  {
+    "id": "j_card_sharp",
+    "name": "Card Sharp",
+    "rarity": "common",
+    "tier": "C",
+    "type": "mult",
+    "effect": "每回合，第一次打出同花时+25 Mult",
+    "cost": 4,
+    "tags": [
+      "同花",
+      "倍数"
+    ],
+    "synergy": [
+      "同花流"
+    ]
+  },
+  {
+    "id": "j_juggler",
+    "name": "Juggler",
+    "rarity": "common",
+    "tier": "C",
+    "type": "chips",
+    "effect": "每回合，打出的手牌数量+1 Chip",
+    "cost": 3,
+    "tags": [
+      "筹码",
+      "多牌"
+    ],
+    "synergy": [
+      "多牌流"
+    ]
+  },
+  {
+    "id": "j_odd",
+    "name": "Odd",
+    "rarity": "common",
+    "tier": "C",
+    "type": "chips",
+    "effect": "手牌全为奇数牌时，+30 Chips",
+    "cost": 3,
+    "tags": [
+      "奇数",
+      "筹码"
+    ],
+    "synergy": [
+      "奇数流"
+    ]
+  },
+  {
+    "id": "j_even_steven",
+    "name": "Even Steven",
+    "rarity": "common",
+    "tier": "C",
+    "type": "chips",
+    "effect": "手牌全为偶数牌时，+30 Chips",
+    "cost": 3,
+    "tags": [
+      "偶数",
+      "筹码"
+    ],
+    "synergy": [
+      "偶数流"
+    ]
+  },
+  {
+    "id": "j_slip",
+    "name": "Slip",
+    "rarity": "common",
+    "tier": "C",
+    "type": "mult",
+    "effect": "每回合，打出的第一张对子获得+20 Mult",
+    "cost": 3,
+    "tags": [
+      "对子",
+      "倍数"
+    ],
+    "synergy": [
+      "对子流"
+    ]
+  },
+  {
+    "id": "j_roughlace",
+    "name": "Roughlace",
+    "rarity": "common",
+    "tier": "C",
+    "type": "chips",
+    "effect": "打出顺子时，+20 Chips",
+    "cost": 3,
+    "tags": [
+      "顺子",
+      "筹码"
+    ],
+    "synergy": [
+      "顺子流"
+    ]
+  },
+  {
+    "id": "j_smeared",
+    "name": "Smeared",
+    "rarity": "common",
+    "tier": "C",
+    "type": "chips",
+    "effect": "手牌含红心和方块各一张时，+40 Chips",
+    "cost": 4,
+    "tags": [
+      "花色",
+      "筹码"
+    ],
+    "synergy": [
+      "双花色流"
+    ]
+  },
+  {
+    "id": "j_clumsy",
+    "name": "Clumsy",
+    "rarity": "common",
+    "tier": "C",
+    "type": "mult",
+    "effect": "每回合，打出的第一张牌获得+15 Mult",
+    "cost": 3,
+    "tags": [
+      "倍数",
+      "稳定"
+    ],
+    "synergy": [
+      "任意"
+    ]
+  },
+  {
+    "id": "j_renoir",
+    "name": "Renoir",
+    "rarity": "common",
+    "tier": "C",
+    "type": "money",
+    "effect": "每回合，打出的第一张红心牌获得$2",
+    "cost": 4,
+    "tags": [
+      "经济",
+      "红心"
+    ],
+    "synergy": [
+      "红心流"
+    ]
+  },
+  {
+    "id": "j_todo",
+    "name": "To Do",
+    "rarity": "common",
+    "tier": "C",
+    "type": "money",
+    "effect": "每回合第一次购买卡牌，获得$4",
+    "cost": 3,
+    "tags": [
+      "经济",
+      "购买"
+    ],
+    "synergy": [
+      "商店流"
+    ]
+  },
+  {
+    "id": "j_crash",
+    "name": "Crash",
+    "rarity": "common",
+    "tier": "C",
+    "type": "xmult",
+    "effect": "每回合，第一次打出的三条获得X1.5",
+    "cost": 4,
+    "tags": [
+      "三条",
+      "倍率"
+    ],
+    "synergy": [
+      "三条流"
+    ]
+  },
+  {
+    "id": "j_merry",
+    "name": "Merry",
+    "rarity": "common",
+    "tier": "C",
+    "type": "money",
+    "effect": "每回合，打出的最后一张人头牌获得$2",
+    "cost": 3,
+    "tags": [
+      "经济",
+      "人头牌"
+    ],
+    "synergy": [
+      "人头牌流"
+    ]
+  },
+  {
+    "id": "j_riff_raff",
+    "name": "Riff-Raff",
+    "rarity": "common",
+    "tier": "C",
+    "type": "special",
+    "effect": "每回合，随机生成1张Joker",
+    "cost": 4,
+    "tags": [
+      "随机",
+      "不稳定"
+    ],
+    "synergy": [
+      "随机流"
+    ]
+  },
+  {
+    "id": "j_gft",
+    "name": "GFT",
+    "rarity": "common",
+    "tier": "D",
+    "type": "money",
+    "effect": "每回合获得$1",
+    "cost": 2,
+    "tags": [
+      "经济",
+      "微弱"
+    ],
+    "synergy": [
+      "最后期"
+    ]
+  },
+  {
+    "id": "j_placeholder",
+    "name": "Placeholder",
+    "rarity": "common",
+    "tier": "D",
+    "type": "mult",
+    "effect": "+2 Mult",
+    "cost": 2,
+    "tags": [
+      "最低",
+      "备选"
+    ],
+    "synergy": [
+      "真没啥选的"
+    ]
+  },
+  {
+    "id": "j_photo",
+    "name": "Photo",
+    "rarity": "common",
+    "tier": "D",
+    "type": "xmult",
+    "effect": "打出的人头牌（J/Q/K）第一张获得X2",
+    "cost": 4,
+    "tags": [
+      "人头牌",
+      "倍率和"
+    ],
+    "synergy": [
+      "人头牌流",
+      "顺子流"
+    ]
+  },
+  {
+    "id": "j_perrier",
+    "name": "Perrier",
+    "rarity": "uncommon",
+    "tier": "S",
+    "type": "xmult",
+    "effect": "每回合随机触发一个已触发效果两次",
+    "cost": 6,
+    "tags": [
+      "随机",
+      "爆发"
+    ],
+    "synergy": [
+      "触发类卡牌"
+    ]
+  },
+  {
+    "id": "j_blueprint",
+    "name": "Blueprint",
+    "rarity": "uncommon",
+    "tier": "S",
+    "type": "special",
+    "effect": "复制右边的Joker效果",
+    "cost": 7,
+    "tags": [
+      "复制",
+      "核心"
+    ],
+    "synergy": [
+      "强力单卡右侧",
+      "无限流"
+    ]
+  },
+  {
+    "id": "j_brainstorm",
+    "name": "Brainstorm",
+    "rarity": "uncommon",
+    "tier": "S",
+    "type": "special",
+    "effect": "复制左边的Joker效果",
+    "cost": 7,
+    "tags": [
+      "复制",
+      "核心"
+    ],
+    "synergy": [
+      "强力单卡右侧",
+      "无限流"
+    ]
+  },
+  {
+    "id": "j_photographic",
+    "name": "Photographic",
+    "rarity": "uncommon",
+    "tier": "S",
+    "type": "xmult",
+    "effect": "打出的人头牌（J/Q/K）第一张获得X2",
+    "cost": 5,
+    "tags": [
+      "人头牌",
+      "倍率和"
+    ],
+    "synergy": [
+      "人头牌流",
+      "顺子流"
+    ]
+  },
+  {
+    "id": "j_halloumi",
+    "name": "Halloumi",
+    "rarity": "uncommon",
+    "tier": "S",
+    "type": "chips",
+    "effect": "每回合开始，当前回合打出的第一张非人头牌获得+30 Chips",
+    "cost": 5,
+    "tags": [
+      "筹码",
+      "稳定"
+    ],
+    "synergy": [
+      "对子流",
+      "双对流"
+    ]
+  },
+  {
+    "id": "j_smooth",
+    "name": "Smooth",
+    "rarity": "uncommon",
+    "tier": "S",
+    "type": "chips",
+    "effect": "每回合，打出的最后一张牌获得+40 Chips",
+    "cost": 5,
+    "tags": [
+      "筹码",
+      "稳定"
+    ],
+    "synergy": [
+      "任意"
+    ]
+  },
+  {
+    "id": "j_film",
+    "name": "Film",
+    "rarity": "uncommon",
+    "tier": "S",
+    "type": "special",
+    "effect": "每回合，在抽牌堆生成1张所缺点数的牌",
+    "cost": 5,
+    "tags": [
+      "滤牌",
+      "稳定"
+    ],
+    "synergy": [
+      "控制流"
+    ]
+  },
+  {
+    "id": "j_vampire",
+    "name": "Vampire",
+    "rarity": "uncommon",
+    "tier": "A",
+    "type": "xmult",
+    "effect": "每卖出1张带Mult的Joker，所有Joker获得X1.5",
+    "cost": 6,
+    "tags": [
+      "倍率",
+      "成长"
+    ],
+    "synergy": [
+      "卖出流"
+    ]
+  },
+  {
+    "id": "j_cavendish",
+    "name": "Cavendish",
+    "rarity": "uncommon",
+    "tier": "A",
+    "type": "mult",
+    "effect": "每回合第一次打出顺子时，+30 Mult",
+    "cost": 4,
+    "tags": [
+      "顺子",
+      "倍数"
+    ],
+    "synergy": [
+      "顺子流"
+    ]
+  },
+  {
+    "id": "j_fortune",
+    "name": "Fortune",
+    "rarity": "uncommon",
+    "tier": "A",
+    "type": "money",
+    "effect": "每回合，有20%概率+$30",
+    "cost": 5,
+    "tags": [
+      "经济",
+      "概率"
+    ],
+    "synergy": [
+      "经济流"
+    ]
+  },
+  {
+    "id": "j_oil",
+    "name": "Oil",
+    "rarity": "uncommon",
+    "tier": "A",
+    "type": "xmult",
+    "effect": "将一张手牌转为所缺点数的A，持续到打出",
+    "cost": 5,
+    "tags": [
+      "转换",
+      "稳定"
+    ],
+    "synergy": [
+      "控制流"
+    ]
+  },
+  {
+    "id": "j_sparkles",
+    "name": "Sparkles",
+    "rarity": "uncommon",
+    "tier": "A",
+    "type": "money",
+    "effect": "每回合，打出的第一张A获得$4",
+    "cost": 4,
+    "tags": [
+      "经济",
+      "A牌"
+    ],
+    "synergy": [
+      "A牌流"
+    ]
+  },
+  {
+    "id": "j_radar",
+    "name": "Radar",
+    "rarity": "uncommon",
+    "tier": "A",
+    "type": "mult",
+    "effect": "每回合，第一次打出的三条获得+50 Mult",
+    "cost": 5,
+    "tags": [
+      "三条",
+      "倍数"
+    ],
+    "synergy": [
+      "三条流"
+    ]
+  },
+  {
+    "id": "j_midas",
+    "name": "Midas",
+    "rarity": "uncommon",
+    "tier": "A",
+    "type": "money",
+    "effect": "所有普通牌变为金币牌，打出时获得$3",
+    "cost": 6,
+    "tags": [
+      "经济",
+      "金化"
+    ],
+    "synergy": [
+      "金化流"
+    ]
+  },
+  {
+    "id": "j_sword",
+    "name": "Sword",
+    "rarity": "uncommon",
+    "tier": "A",
+    "type": "chips",
+    "effect": "打出的最后一张牌获得+40 Chips",
+    "cost": 4,
+    "tags": [
+      "筹码",
+      "稳定"
+    ],
+    "synergy": [
+      "任意"
+    ]
+  },
+  {
+    "id": "j_bean",
+    "name": "Bean",
+    "rarity": "uncommon",
+    "tier": "A",
+    "type": "mult",
+    "effect": "每回合，打出的第一张非人头牌获得+30 Mult",
+    "cost": 4,
+    "tags": [
+      "倍数",
+      "爆发"
+    ],
+    "synergy": [
+      "对子流",
+      "双对流"
+    ]
+  },
+  {
+    "id": "j_squid",
+    "name": "Squid",
+    "rarity": "uncommon",
+    "tier": "A",
+    "type": "mult",
+    "effect": "打出顺子时，+40 Mult",
+    "cost": 5,
+    "tags": [
+      "顺子",
+      "倍数"
+    ],
+    "synergy": [
+      "顺子流"
+    ]
+  },
+  {
+    "id": "j_blackboard",
+    "name": "Blackboard",
+    "rarity": "uncommon",
+    "tier": "A",
+    "type": "xmult",
+    "effect": "手里没有筹码加成时，所有Joker获得X2",
+    "cost": 6,
+    "tags": [
+      "倍率",
+      "纯牌型"
+    ],
+    "synergy": [
+      "无chip Joker流"
+    ]
+  },
+  {
+    "id": "j_sports",
+    "name": "Sports",
+    "rarity": "uncommon",
+    "tier": "A",
+    "type": "mult",
+    "effect": "每回合，打出的最后一张人头牌获得+30 Mult",
+    "cost": 5,
+    "tags": [
+      "人头牌",
+      "倍数"
+    ],
+    "synergy": [
+      "人头牌流"
+    ]
+  },
+  {
+    "id": "j_matador",
+    "name": "Matador",
+    "rarity": "uncommon",
+    "tier": "B",
+    "type": "money",
+    "effect": "每回合结束时，根据打的盲获得$1-$5",
+    "cost": 4,
+    "tags": [
+      "经济",
+      "进度"
+    ],
+    "synergy": [
+      "进度流"
+    ]
+  },
+  {
+    "id": "j_drivers",
+    "name": "Drivers",
+    "rarity": "uncommon",
+    "tier": "B",
+    "type": "chips",
+    "effect": "每回合，打出的第一张和最后一张7获得+80 Chips",
+    "cost": 5,
+    "tags": [
+      "7牌",
+      "筹码"
+    ],
+    "synergy": [
+      "7牌流"
+    ]
+  },
+  {
+    "id": "j_four_fingers",
+    "name": "Four Fingers",
+    "rarity": "uncommon",
+    "tier": "B",
+    "type": "hand",
+    "effect": "手牌上限变为4",
+    "cost": 4,
+    "tags": [
+      "手牌",
+      "限制"
+    ],
+    "synergy": [
+      "特定构筑"
+    ]
+  },
+  {
+    "id": "j_fiber",
+    "name": "Fiber",
+    "rarity": "uncommon",
+    "tier": "B",
+    "type": "money",
+    "effect": "每回合第一次卖掉卡牌时，获得$3",
+    "cost": 3,
+    "tags": [
+      "经济",
+      "卖牌"
+    ],
+    "synergy": [
+      "卖牌流"
+    ]
+  },
+  {
+    "id": "j_tribal",
+    "name": "Tribal",
+    "rarity": "uncommon",
+    "tier": "B",
+    "type": "chips",
+    "effect": "打出对子时，+30 Chips",
+    "cost": 3,
+    "tags": [
+      "对子",
+      "筹码"
+    ],
+    "synergy": [
+      "对子流"
+    ]
+  },
+  {
+    "id": "j_swashbuckle",
+    "name": "Swashbuckle",
+    "rarity": "uncommon",
+    "tier": "B",
+    "type": "chips",
+    "effect": "打出同花时，+40 Chips",
+    "cost": 4,
+    "tags": [
+      "同花",
+      "筹码"
+    ],
+    "synergy": [
+      "同花流"
+    ]
+  },
+  {
+    "id": "j_sly",
+    "name": "Sly",
+    "rarity": "uncommon",
+    "tier": "B",
+    "type": "money",
+    "effect": "每回合有33%概率获得$15",
+    "cost": 4,
+    "tags": [
+      "经济",
+      "概率"
+    ],
+    "synergy": [
+      "经济流"
+    ]
+  },
+  {
+    "id": "j_cretan",
+    "name": "Cretan",
+    "rarity": "uncommon",
+    "tier": "B",
+    "type": "chips",
+    "effect": "打出同花顺时，+120 Chips",
+    "cost": 5,
+    "tags": [
+      "同花顺",
+      "筹码"
+    ],
+    "synergy": [
+      "同花顺流"
+    ]
+  },
+  {
+    "id": "j_three_figures",
+    "name": "Three Figures",
+    "rarity": "uncommon",
+    "tier": "C",
+    "type": "mult",
+    "effect": "打出三同号时，+50 Mult",
+    "cost": 4,
+    "tags": [
+      "三同号",
+      "倍数"
+    ],
+    "synergy": [
+      "三同号流"
+    ]
+  },
+  {
+    "id": "j_roman",
+    "name": "Roman",
+    "rarity": "uncommon",
+    "tier": "C",
+    "type": "chips",
+    "effect": "手牌包含I,II,III,IV,V时，+100 Chips",
+    "cost": 5,
+    "tags": [
+      "特殊",
+      "筹码"
+    ],
+    "synergy": [
+      "特殊牌型"
+    ]
+  },
+  {
+    "id": "j_red_card",
+    "name": "Red Card",
+    "rarity": "uncommon",
+    "tier": "C",
+    "type": "mult",
+    "effect": "每回合，打出的第一张红心牌获得+17 Mult",
+    "cost": 4,
+    "tags": [
+      "红心",
+      "倍数"
+    ],
+    "synergy": [
+      "红心流"
+    ]
+  },
+  {
+    "id": "j_blue_card",
+    "name": "Blue Card",
+    "rarity": "uncommon",
+    "tier": "C",
+    "type": "mult",
+    "effect": "每回合，打出的第一张黑桃牌获得+17 Mult",
+    "cost": 4,
+    "tags": [
+      "黑桃",
+      "倍数"
+    ],
+    "synergy": [
+      "黑桃流"
+    ]
+  },
+  {
+    "id": "j_green_card",
+    "name": "Green Card",
+    "rarity": "uncommon",
+    "tier": "C",
+    "type": "mult",
+    "effect": "每回合，打出的第一张梅花牌获得+17 Mult",
+    "cost": 4,
+    "tags": [
+      "梅花",
+      "倍数"
+    ],
+    "synergy": [
+      "梅花流"
+    ]
+  },
+  {
+    "id": "j_orange_card",
+    "name": "Orange Card",
+    "rarity": "uncommon",
+    "tier": "C",
+    "type": "mult",
+    "effect": "每回合，打出的第一张方块牌获得+17 Mult",
+    "cost": 4,
+    "tags": [
+      "方块",
+      "倍数"
+    ],
+    "synergy": [
+      "方块流"
+    ]
+  },
+  {
+    "id": "j_burnt",
+    "name": "Burnt",
+    "rarity": "uncommon",
+    "tier": "D",
+    "type": "special",
+    "effect": "打出5张同花色时，1张随机手牌复制为另一花色",
+    "cost": 4,
+    "tags": [
+      "同花",
+      "转换"
+    ],
+    "synergy": [
+      "同花流"
+    ]
+  },
+  {
+    "id": "j_stencil",
+    "name": "Stencil",
+    "rarity": "uncommon",
+    "tier": "D",
+    "type": "mult",
+    "effect": "每回合，打出的最后一张牌获得+3 Mult（每有1张其他Joker，+7 Mult）",
+    "cost": 4,
+    "tags": [
+      "倍数",
+      "成长"
+    ],
+    "synergy": [
+      "Joker数量流"
+    ]
+  },
+  {
+    "id": "j_football",
+    "name": "Football",
+    "rarity": "rare",
+    "tier": "S",
+    "type": "xmult",
+    "effect": "每10回合获得X1.5",
+    "cost": 7,
+    "tags": [
+      "倍率",
+      "成长"
+    ],
+    "synergy": [
+      "后期流"
+    ]
+  },
+  {
+    "id": "j_golden_egg",
+    "name": "Golden Joker",
+    "rarity": "rare",
+    "tier": "S",
+    "type": "money",
+    "effect": "每回合结束时，手里没有非Lucky牌时，获得$10",
+    "cost": 7,
+    "tags": [
+      "经济",
+      "挑战"
+    ],
+    "synergy": [
+      "纯牌型流"
+    ]
+  },
+  {
+    "id": "j_mr_h",
+    "name": "Mr. H",
+    "rarity": "rare",
+    "tier": "S",
+    "type": "xmult",
+    "effect": "每有1张未打出的手牌，所有Joker获得X1.1",
+    "cost": 8,
+    "tags": [
+      "倍率",
+      "成长"
+    ],
+    "synergy": [
+      "控制流"
+    ]
+  },
+  {
+    "id": "j_invisible",
+    "name": "Invisible Joker",
+    "rarity": "rare",
+    "tier": "S",
+    "type": "mult",
+    "effect": "手牌中每有1张，打出时+30 Mult",
+    "cost": 6,
+    "tags": [
+      "倍数",
+      "控制"
+    ],
+    "synergy": [
+      "控制流"
+    ]
+  },
+  {
+    "id": "j_six",
+    "name": "Six",
+    "rarity": "rare",
+    "tier": "A",
+    "type": "chips",
+    "effect": "每回合，打出的6数量x30 Chips",
+    "cost": 5,
+    "tags": [
+      "6牌",
+      "筹码"
+    ],
+    "synergy": [
+      "6牌流"
+    ]
+  },
+  {
+    "id": "j_five",
+    "name": "Five",
+    "rarity": "rare",
+    "tier": "A",
+    "type": "chips",
+    "effect": "每回合，打出的5数量x30 Chips",
+    "cost": 5,
+    "tags": [
+      "5牌",
+      "筹码"
+    ],
+    "synergy": [
+      "5牌流"
+    ]
+  },
+  {
+    "id": "j_four",
+    "name": "Four",
+    "rarity": "rare",
+    "tier": "A",
+    "type": "chips",
+    "effect": "每回合，打出的4数量x30 Chips",
+    "cost": 5,
+    "tags": [
+      "4牌",
+      "筹码"
+    ],
+    "synergy": [
+      "4牌流"
+    ]
+  },
+  {
+    "id": "j_three",
+    "name": "Three",
+    "rarity": "rare",
+    "tier": "A",
+    "type": "chips",
+    "effect": "每回合，打出的3数量x30 Chips",
+    "cost": 5,
+    "tags": [
+      "3牌",
+      "筹码"
+    ],
+    "synergy": [
+      "3牌流"
+    ]
+  },
+  {
+    "id": "j_two",
+    "name": "Two",
+    "rarity": "rare",
+    "tier": "A",
+    "type": "chips",
+    "effect": "每回合，打出的2数量x30 Chips",
+    "cost": 5,
+    "tags": [
+      "2牌",
+      "筹码"
+    ],
+    "synergy": [
+      "2牌流"
+    ]
+  },
+  {
+    "id": "j_virtual",
+    "name": "Virtual Joker",
+    "rarity": "rare",
+    "tier": "A",
+    "type": "xmult",
+    "effect": "每回合，打出的手牌数量xX1.5",
+    "cost": 6,
+    "tags": [
+      "倍率",
+      "多牌"
+    ],
+    "synergy": [
+      "多牌流"
+    ]
+  },
+  {
+    "id": "j_rocket",
+    "name": "Rocket",
+    "rarity": "rare",
+    "tier": "A",
+    "type": "chips",
+    "effect": "每回合，打出的手牌数量x10 Chips",
+    "cost": 5,
+    "tags": [
+      "筹码",
+      "多牌"
+    ],
+    "synergy": [
+      "多牌流"
+    ]
+  },
+  {
+    "id": "j_barrel",
+    "name": "Barrel",
+    "rarity": "rare",
+    "tier": "A",
+    "type": "xmult",
+    "effect": "打出顺子时，X2",
+    "cost": 6,
+    "tags": [
+      "顺子",
+      "倍率和"
+    ],
+    "synergy": [
+      "顺子流"
+    ]
+  },
+  {
+    "id": "j_stone_joker",
+    "name": "Stone Joker",
+    "rarity": "rare",
+    "tier": "A",
+    "type": "chips",
+    "effect": "每回合获得+4 Chips（每有1张其他Joker，+8 Chips）",
+    "cost": 6,
+    "tags": [
+      "筹码",
+      "成长"
+    ],
+    "synergy": [
+      "Joker数量流"
+    ]
+  },
+  {
+    "id": "j_lucky_dollar",
+    "name": "Lucky Dollar",
+    "rarity": "rare",
+    "tier": "A",
+    "type": "money",
+    "effect": "每回合有20%概率+$25",
+    "cost": 5,
+    "tags": [
+      "经济",
+      "概率"
+    ],
+    "synergy": [
+      "经济流"
+    ]
+  },
+  {
+    "id": "j_digital",
+    "name": "Digital",
+    "rarity": "rare",
+    "tier": "A",
+    "type": "mult",
+    "effect": "每回合，打出的最后一张人头牌获得+30 Mult",
+    "cost": 5,
+    "tags": [
+      "人头牌",
+      "倍数"
+    ],
+    "synergy": [
+      "人头牌流"
+    ]
+  },
+  {
+    "id": "j_reserved",
+    "name": "Reserved",
+    "rarity": "rare",
+    "tier": "A",
+    "type": "hand",
+    "effect": "手牌上限+1，每回合生成1张待打出牌",
+    "cost": 5,
+    "tags": [
+      "手牌",
+      "扩展"
+    ],
+    "synergy": [
+      "控制流"
+    ]
+  },
+  {
+    "id": "j_flash",
+    "name": "Flash",
+    "rarity": "rare",
+    "tier": "A",
+    "type": "xmult",
+    "effect": "每回合，打出的第一张2-5获得X2",
+    "cost": 6,
+    "tags": [
+      "低牌",
+      "倍率和"
+    ],
+    "synergy": [
+      "低牌流"
+    ]
+  },
+  {
+    "id": "j_titan",
+    "name": "Titan",
+    "rarity": "rare",
+    "tier": "B",
+    "type": "xmult",
+    "effect": "打出三条时，X2",
+    "cost": 6,
+    "tags": [
+      "三条",
+      "倍率和"
+    ],
+    "synergy": [
+      "三条流"
+    ]
+  },
+  {
+    "id": "j_twin",
+    "name": "Twin",
+    "rarity": "rare",
+    "tier": "B",
+    "type": "chips",
+    "effect": "打出双对时，+40 Chips",
+    "cost": 4,
+    "tags": [
+      "双对",
+      "筹码"
+    ],
+    "synergy": [
+      "双对流"
+    ]
+  },
+  {
+    "id": "j_cartoon",
+    "name": "Cartoon",
+    "rarity": "rare",
+    "tier": "B",
+    "type": "xmult",
+    "effect": "打出同花时，X2",
+    "cost": 6,
+    "tags": [
+      "同花",
+      "倍率和"
+    ],
+    "synergy": [
+      "同花流"
+    ]
+  },
+  {
+    "id": "j_spark",
+    "name": "Spark",
+    "rarity": "rare",
+    "tier": "B",
+    "type": "mult",
+    "effect": "打出对子时，+20 Mult",
+    "cost": 4,
+    "tags": [
+      "对子",
+      "倍数"
+    ],
+    "synergy": [
+      "对子流"
+    ]
+  },
+  {
+    "id": "j_carbon",
+    "name": "Carbon",
+    "rarity": "rare",
+    "tier": "B",
+    "type": "chips",
+    "effect": "每回合，打出的第一张和最后一张8获得+100 Chips",
+    "cost": 5,
+    "tags": [
+      "8牌",
+      "筹码"
+    ],
+    "synergy": [
+      "8牌流"
+    ]
+  },
+  {
+    "id": "j_acrylic",
+    "name": "Acrylic",
+    "rarity": "rare",
+    "tier": "B",
+    "type": "chips",
+    "effect": "每回合，打出的最后一张9-10获得+60 Chips",
+    "cost": 5,
+    "tags": [
+      "高牌",
+      "筹码"
+    ],
+    "synergy": [
+      "高牌流"
+    ]
+  },
+  {
+    "id": "j_neon",
+    "name": "Neon",
+    "rarity": "rare",
+    "tier": "B",
+    "type": "mult",
+    "effect": "每回合，打出的第一张A获得+40 Mult",
+    "cost": 5,
+    "tags": [
+      "A牌",
+      "倍数"
+    ],
+    "synergy": [
+      "A牌流"
+    ]
+  },
+  {
+    "id": "j_hall",
+    "name": "Hall",
+    "rarity": "rare",
+    "tier": "B",
+    "type": "chips",
+    "effect": "打出三条时，+80 Chips",
+    "cost": 4,
+    "tags": [
+      "三条",
+      "筹码"
+    ],
+    "synergy": [
+      "三条流"
+    ]
+  },
+  {
+    "id": "j_seeing_double",
+    "name": "Seeing Double",
+    "rarity": "rare",
+    "tier": "B",
+    "type": "chips",
+    "effect": "手牌全为同一花色时，+100 Chips",
+    "cost": 5,
+    "tags": [
+      "同花",
+      "筹码"
+    ],
+    "synergy": [
+      "同花流"
+    ]
+  },
+  {
+    "id": "j_gros_michel_leg",
+    "name": "Gros Michel",
+    "rarity": "legendary",
+    "tier": "S",
+    "type": "money",
+    "effect": "每回合获得$8",
+    "cost": 8,
+    "tags": [
+      "经济",
+      "稳定"
+    ],
+    "synergy": [
+      "经济流"
+    ]
+  },
+  {
+    "id": "j_evil",
+    "name": "Evil Joker",
+    "rarity": "legendary",
+    "tier": "S",
+    "type": "xmult",
+    "effect": "每回合，所有Joker获得X1.2",
+    "cost": 8,
+    "tags": [
+      "倍率",
+      "成长"
+    ],
+    "synergy": [
+      "任意"
+    ]
+  },
+  {
+    "id": "j_chaos_leg",
+    "name": "Chaos",
+    "rarity": "legendary",
+    "tier": "S",
+    "type": "mult",
+    "effect": "每回合，随机+20到+50 Mult",
+    "cost": 8,
+    "tags": [
+      "倍数",
+      "随机"
+    ],
+    "synergy": [
+      "随机流"
+    ]
+  },
+  {
+    "id": "j_wild",
+    "name": "Wild Joker",
+    "rarity": "legendary",
+    "tier": "S",
+    "type": "xmult",
+    "effect": "打出任意牌型时，X2",
+    "cost": 8,
+    "tags": [
+      "倍率",
+      "通用"
+    ],
+    "synergy": [
+      "任意"
+    ]
+  },
+  {
+    "id": "j_mega",
+    "name": "Mega Joker",
+    "rarity": "legendary",
+    "tier": "A",
+    "type": "mult",
+    "effect": "每有10张Joker，获得+100 Mult",
+    "cost": 7,
+    "tags": [
+      "倍数",
+      "组合"
+    ],
+    "synergy": [
+      "Joker数量流"
+    ]
+  },
+  {
+    "id": "j_hyper",
+    "name": "Hyper Joker",
+    "rarity": "legendary",
+    "tier": "A",
+    "type": "xmult",
+    "effect": "每回合开始，所有Joker获得X1.3",
+    "cost": 7,
+    "tags": [
+      "倍率",
+      "成长"
+    ],
+    "synergy": [
+      "后期流"
+    ]
+  },
+  {
+    "id": "j_finish",
+    "name": "Finish",
+    "rarity": "legendary",
+    "tier": "A",
+    "type": "mult",
+    "effect": "打出同花顺时，+200 Mult",
+    "cost": 7,
+    "tags": [
+      "同花顺",
+      "倍数"
+    ],
+    "synergy": [
+      "同花顺流"
+    ]
+  },
+  {
+    "id": "j_erect",
+    "name": "Erect",
+    "rarity": "legendary",
+    "tier": "A",
+    "type": "mult",
+    "effect": "打出三条时，+150 Mult",
+    "cost": 7,
+    "tags": [
+      "三条",
+      "倍数"
+    ],
+    "synergy": [
+      "三条流"
+    ]
+  },
+  {
+    "id": "j_double",
+    "name": "Double",
+    "rarity": "legendary",
+    "tier": "A",
+    "type": "mult",
+    "effect": "打出双对时，+100 Mult",
+    "cost": 7,
+    "tags": [
+      "双对",
+      "倍数"
+    ],
+    "synergy": [
+      "双对流"
+    ]
+  },
+  {
+    "id": "j_flush",
+    "name": "Flush",
+    "rarity": "legendary",
+    "tier": "A",
+    "type": "chips",
+    "effect": "打出同花时，+150 Chips",
+    "cost": 7,
+    "tags": [
+      "同花",
+      "筹码"
+    ],
+    "synergy": [
+      "同花流"
+    ]
+  },
+  {
+    "id": "j_straight",
+    "name": "Straight",
+    "rarity": "legendary",
+    "tier": "A",
+    "type": "chips",
+    "effect": "打出顺子时，+150 Chips",
+    "cost": 7,
+    "tags": [
+      "顺子",
+      "筹码"
+    ],
+    "synergy": [
+      "顺子流"
+    ]
+  },
+  {
+    "id": "j_gabriel",
+    "name": "Gabriel",
+    "rarity": "legendary",
+    "tier": "B",
+    "type": "special",
+    "effect": "跳过休息阶段时，所有Joker获得X1.5",
+    "cost": 6,
+    "tags": [
+      "倍率",
+      "跳过"
+    ],
+    "synergy": [
+      "跳过流"
+    ]
+  },
+  {
+    "id": "j_banana",
+    "name": "Banana",
+    "rarity": "legendary",
+    "tier": "B",
+    "type": "money",
+    "effect": "每回合，打出的最后一张牌获得$3",
+    "cost": 6,
+    "tags": [
+      "经济",
+      "稳定"
+    ],
+    "synergy": [
+      "任意"
+    ]
+  }
+]
