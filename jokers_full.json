@@ -1,0 +1,1877 @@
+[
+  {
+    "id": "j_joker",
+    "name": "小丑",
+    "name_cn": "小丑",
+    "rarity": "common",
+    "tier": "S",
+    "effect": "每回合结束时，手里每有1张Lucky Card，获得$4 | +4 mult",
+    "cost": 4,
+    "tags": [
+      "经济",
+      "幸运牌"
+    ],
+    "synergy": "刷钱",
+    "combo_tips": "配合Lucky Card刷钱"
+  },
+  {
+    "id": "j_greedy",
+    "name": "贪婪小丑",
+    "name_cn": "贪婪小丑",
+    "rarity": "common",
+    "tier": "C",
+    "effect": "+3 mult",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_lusty",
+    "name": "淫欲小丑",
+    "name_cn": "淫欲小丑",
+    "rarity": "common",
+    "tier": "C",
+    "effect": "+3 mult",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_wrathful",
+    "name": "愤怒小丑",
+    "name_cn": "愤怒小丑",
+    "rarity": "common",
+    "tier": "C",
+    "effect": "+3 mult",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_gluttonous",
+    "name": "贪吃小丑",
+    "name_cn": "贪吃小丑",
+    "rarity": "common",
+    "tier": "C",
+    "effect": "+3 mult",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_jolly",
+    "name": "快乐小丑",
+    "name_cn": "快乐小丑",
+    "rarity": "common",
+    "tier": "C",
+    "effect": "+8 mult",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_zany",
+    "name": "疯狂小丑",
+    "name_cn": "疯狂小丑",
+    "rarity": "common",
+    "tier": "C",
+    "effect": "+12 mult",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_mad",
+    "name": "狂热小丑",
+    "name_cn": "狂热小丑",
+    "rarity": "common",
+    "tier": "C",
+    "effect": "+10 mult",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_crazy",
+    "name": "疯狂小丑",
+    "name_cn": "疯狂小丑",
+    "rarity": "common",
+    "tier": "C",
+    "effect": "+12 mult",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_droll",
+    "name": "严肃小丑",
+    "name_cn": "严肃小丑",
+    "rarity": "common",
+    "tier": "C",
+    "effect": "+10 mult",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_sly",
+    "name": "狡诈小丑",
+    "name_cn": "狡猾",
+    "rarity": "common",
+    "tier": "B",
+    "effect": "每回合有33%概率获得$15 | +50 chips",
+    "cost": 4,
+    "tags": [
+      "经济"
+    ],
+    "synergy": "经济流",
+    "combo_tips": "33%概率"
+  },
+  {
+    "id": "j_wily",
+    "name": "狡猾小丑",
+    "name_cn": "狡猾小丑",
+    "rarity": "common",
+    "tier": "C",
+    "effect": "+100 chips",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_clever",
+    "name": "聪明小丑",
+    "name_cn": "聪明小丑",
+    "rarity": "common",
+    "tier": "C",
+    "effect": "+80 chips",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_devious",
+    "name": "阴险小丑",
+    "name_cn": "阴险小丑",
+    "rarity": "common",
+    "tier": "C",
+    "effect": "+100 chips",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_crafty",
+    "name": "精巧小丑",
+    "name_cn": "精巧小丑",
+    "rarity": "common",
+    "tier": "C",
+    "effect": "+80 chips",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_half",
+    "name": "一半小丑",
+    "name_cn": "一半小丑",
+    "rarity": "common",
+    "tier": "C",
+    "effect": "+20 mult",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_stencil",
+    "name": "模板小丑",
+    "name_cn": "模板",
+    "rarity": "rare",
+    "tier": "D",
+    "effect": "每回合，打出的最后一张牌获得+3 Mult（每有1张其他Joker，+7 Mult） | xmult:slot",
+    "cost": 4,
+    "tags": [
+      "倍数"
+    ],
+    "synergy": "Joker数量流",
+    "combo_tips": "Joker越多越强"
+  },
+  {
+    "id": "j_four_fingers",
+    "name": "四指",
+    "name_cn": "四指",
+    "rarity": "rare",
+    "tier": "B",
+    "effect": "手牌上限变为4 | special:four_fingers",
+    "cost": 4,
+    "tags": [
+      "手牌"
+    ],
+    "synergy": "特定构筑",
+    "combo_tips": "限制手牌配合"
+  },
+  {
+    "id": "j_fibonacci",
+    "name": "斐波那契",
+    "name_cn": "斐波那契",
+    "rarity": "rare",
+    "tier": "C",
+    "effect": "+8 mult",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_even_steven",
+    "name": "偶数史蒂文",
+    "name_cn": "偶数史蒂文",
+    "rarity": "common",
+    "tier": "C",
+    "effect": "手牌全为偶数牌时，+30 Chips | +4 mult",
+    "cost": 3,
+    "tags": [
+      "偶数"
+    ],
+    "synergy": "偶数流",
+    "combo_tips": "偶数限定"
+  },
+  {
+    "id": "j_odd_todd",
+    "name": "奇数托德",
+    "name_cn": "奇数托德",
+    "rarity": "common",
+    "tier": "C",
+    "effect": "+31 chips",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_scholar",
+    "name": "学者",
+    "name_cn": "学者",
+    "rarity": "common",
+    "tier": "C",
+    "effect": "+20 chips, +4 mult",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_scary_face",
+    "name": "恐怖脸",
+    "name_cn": "恐怖脸",
+    "rarity": "common",
+    "tier": "C",
+    "effect": "+30 chips",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_photograph",
+    "name": "照片",
+    "name_cn": "照片",
+    "rarity": "common",
+    "tier": "C",
+    "effect": "+2 xmult, rank:face, position:first",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_smiley",
+    "name": "笑脸",
+    "name_cn": "笑脸",
+    "rarity": "common",
+    "tier": "C",
+    "effect": "+5 mult, rank:face",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_sock",
+    "name": "袜子",
+    "name_cn": "袜子",
+    "rarity": "rare",
+    "tier": "C",
+    "effect": "special:reset_face",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_pareidolia",
+    "name": "空想性错觉",
+    "name_cn": "空想性错觉",
+    "rarity": "rare",
+    "tier": "C",
+    "effect": "special:face",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_baron",
+    "name": "男爵",
+    "name_cn": "男爵",
+    "rarity": "legendary",
+    "tier": "C",
+    "effect": "xmult:king, value:1.5",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_triboulet",
+    "name": "特里布莱",
+    "name_cn": "特里布莱",
+    "rarity": "legendary",
+    "tier": "C",
+    "effect": "xmult:king_queen, +2 value",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_shoot_moon",
+    "name": "射月",
+    "name_cn": "射月",
+    "rarity": "common",
+    "tier": "C",
+    "effect": "mult:queen",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_hit_road",
+    "name": "赶路",
+    "name_cn": "赶路",
+    "rarity": "legendary",
+    "tier": "C",
+    "effect": "xmult:discard_j, value:0.5",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_canio",
+    "name": "卡尼奥",
+    "name_cn": "卡尼奥",
+    "rarity": "legendary",
+    "tier": "C",
+    "effect": "xmult:destroy_face",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_walkie",
+    "name": "对讲机",
+    "name_cn": "对讲机",
+    "rarity": "common",
+    "tier": "C",
+    "effect": "+10 chips, +4 mult",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_duo",
+    "name": "二重奏",
+    "name_cn": "二重奏",
+    "rarity": "legendary",
+    "tier": "C",
+    "effect": "+2 xmult, hand:pair",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_trio",
+    "name": "三重奏",
+    "name_cn": "三重奏",
+    "rarity": "legendary",
+    "tier": "C",
+    "effect": "+3 xmult, hand:three",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_family",
+    "name": "一家四口",
+    "name_cn": "一家四口",
+    "rarity": "legendary",
+    "tier": "C",
+    "effect": "+4 xmult, hand:four",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_order",
+    "name": "秩序",
+    "name_cn": "秩序",
+    "rarity": "legendary",
+    "tier": "C",
+    "effect": "+3 xmult, hand:straight",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_tribe",
+    "name": "部落",
+    "name_cn": "部落",
+    "rarity": "legendary",
+    "tier": "C",
+    "effect": "+2 xmult, hand:flush",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_flower_pot",
+    "name": "花盆",
+    "name_cn": "花盆",
+    "rarity": "rare",
+    "tier": "C",
+    "effect": "+3 xmult, hand:four_suit",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_blackboard",
+    "name": "黑板",
+    "name_cn": "黑板",
+    "rarity": "rare",
+    "tier": "A",
+    "effect": "手里没有筹码加成时，所有Joker获得X2 | +3 xmult",
+    "cost": 6,
+    "tags": [
+      "倍率"
+    ],
+    "synergy": "无chip流",
+    "combo_tips": "无芯片X2"
+  },
+  {
+    "id": "j_bloodstone",
+    "name": "血石",
+    "name_cn": "血石",
+    "rarity": "rare",
+    "tier": "C",
+    "effect": "xmult:1.5, suit:hearts, chance:0.5",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_arrowhead",
+    "name": "箭头",
+    "name_cn": "箭头",
+    "rarity": "rare",
+    "tier": "C",
+    "effect": "+50 chips, suit:spades",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_onyx",
+    "name": "缟玛瑙",
+    "name_cn": "缟玛瑙",
+    "rarity": "rare",
+    "tier": "C",
+    "effect": "+7 mult, suit:clubs",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_rough_gem",
+    "name": "粗宝石",
+    "name_cn": "粗宝石",
+    "rarity": "rare",
+    "tier": "C",
+    "effect": "economy:diamonds, +1 value",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_burglar",
+    "name": "窃贼",
+    "name_cn": "夜贼",
+    "rarity": "rare",
+    "tier": "S",
+    "effect": "跳过休息阶段时，获得$20和1张随机Lucky Card | +3 draw, lose_discards:true",
+    "cost": 6,
+    "tags": [
+      "经济"
+    ],
+    "synergy": "跳过流",
+    "combo_tips": "跳过+Lucky爆发"
+  },
+  {
+    "id": "j_drunkard",
+    "name": "醉汉",
+    "name_cn": "醉汉",
+    "rarity": "common",
+    "tier": "C",
+    "effect": "+1 discard",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_merry_andy",
+    "name": "快乐的安迪",
+    "name_cn": "快乐的安迪",
+    "rarity": "rare",
+    "tier": "C",
+    "effect": "+3 discard",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_golden",
+    "name": "黄金小丑",
+    "name_cn": "黄金小丑",
+    "rarity": "common",
+    "tier": "C",
+    "effect": "+4 economy",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_rocket",
+    "name": "火箭",
+    "name_cn": "火箭",
+    "rarity": "rare",
+    "tier": "A",
+    "effect": "每回合，打出的手牌数量x10 Chips | +1 economy, +2 economy_boss",
+    "cost": 5,
+    "tags": [
+      "筹码"
+    ],
+    "synergy": "多牌流",
+    "combo_tips": "手牌越多筹码越高"
+  },
+  {
+    "id": "j_to_moon",
+    "name": "登月",
+    "name_cn": "登月",
+    "rarity": "rare",
+    "tier": "C",
+    "effect": "economy:interest",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_blueprint",
+    "name": "蓝图",
+    "name_cn": "蓝图",
+    "rarity": "legendary",
+    "tier": "S",
+    "effect": "复制右边的Joker效果 | special:copy_right",
+    "cost": 7,
+    "tags": [
+      "复制"
+    ],
+    "synergy": "强力卡右侧",
+    "combo_tips": "复制最强卡必拿"
+  },
+  {
+    "id": "j_brainstorm",
+    "name": "头脑风暴",
+    "name_cn": "头脑风暴",
+    "rarity": "legendary",
+    "tier": "S",
+    "effect": "复制左边的Joker效果 | special:copy_left",
+    "cost": 7,
+    "tags": [
+      "复制"
+    ],
+    "synergy": "强力卡左侧",
+    "combo_tips": "复制最强卡必拿"
+  },
+  {
+    "id": "j_abstract",
+    "name": "抽象小丑",
+    "name_cn": "抽象",
+    "rarity": "common",
+    "tier": "A",
+    "effect": "每有3张Joker，获得+15 Mult | +3 mult",
+    "cost": 4,
+    "tags": [
+      "倍数"
+    ],
+    "synergy": "Joker数量流",
+    "combo_tips": "Joker越多越强"
+  },
+  {
+    "id": "j_cartomancer",
+    "name": "占卜师",
+    "name_cn": "占卜师",
+    "rarity": "rare",
+    "tier": "C",
+    "effect": "special:create_tarot",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_fortune_teller",
+    "name": "算命师",
+    "name_cn": "算命师",
+    "rarity": "common",
+    "tier": "A",
+    "effect": "每回合结束时，每有1张已触发塔罗牌，获得+3 Mult | mult:tarot",
+    "cost": 4,
+    "tags": [
+      "倍数"
+    ],
+    "synergy": "塔罗流",
+    "combo_tips": "塔罗越多越强"
+  },
+  {
+    "id": "j_constellation",
+    "name": "星座",
+    "name_cn": "星座",
+    "rarity": "rare",
+    "tier": "C",
+    "effect": "xmult:planet",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_superposition",
+    "name": "叠加",
+    "name_cn": "叠加",
+    "rarity": "common",
+    "tier": "C",
+    "effect": "special:tarot",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_shortcut",
+    "name": "捷径",
+    "name_cn": "捷径",
+    "rarity": "rare",
+    "tier": "C",
+    "effect": "special:straight_gap",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_runner",
+    "name": "奔跑者",
+    "name_cn": "奔跑者",
+    "rarity": "common",
+    "tier": "C",
+    "effect": "+15 chips, hand:straight",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_ice_cream",
+    "name": "冰淇淋",
+    "name_cn": "冰淇淋",
+    "rarity": "common",
+    "tier": "C",
+    "effect": "+100 chips, +5 chips_decay",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_mime",
+    "name": "模仿小丑",
+    "name_cn": "模仿小丑",
+    "rarity": "rare",
+    "tier": "C",
+    "effect": "special:mime",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_credit_card",
+    "name": "信用卡",
+    "name_cn": "信用卡",
+    "rarity": "common",
+    "tier": "S",
+    "effect": "允许负金钱购买（上限-$20） | special:credit",
+    "cost": 4,
+    "tags": [
+      "经济"
+    ],
+    "synergy": "经济流",
+    "combo_tips": "超前消费快速成型"
+  },
+  {
+    "id": "j_ceremonial",
+    "name": "祭祀匕首",
+    "name_cn": "仪式",
+    "rarity": "rare",
+    "tier": "B",
+    "effect": "每回合，随机+5到+15 Mult | mult:destroy_right, permanent:true",
+    "cost": 3,
+    "tags": [
+      "倍数"
+    ],
+    "synergy": "随机流",
+    "combo_tips": "数值随机"
+  },
+  {
+    "id": "j_banner",
+    "name": "旗帜",
+    "name_cn": "旗帜",
+    "rarity": "common",
+    "tier": "C",
+    "effect": "每有$10金钱，+1 Chip | chips:discard",
+    "cost": 4,
+    "tags": [
+      "筹码"
+    ],
+    "synergy": "经济筹码流",
+    "combo_tips": "有钱才有芯片"
+  },
+  {
+    "id": "j_mystic_summit",
+    "name": "神秘山峰",
+    "name_cn": "神秘山峰",
+    "rarity": "common",
+    "tier": "C",
+    "effect": "+15 mult",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_marble",
+    "name": "大理石小丑",
+    "name_cn": "大理石小丑",
+    "rarity": "rare",
+    "tier": "C",
+    "effect": "special:stone",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_loyalty",
+    "name": "忠诚卡",
+    "name_cn": "忠诚卡",
+    "rarity": "rare",
+    "tier": "C",
+    "effect": "+4 xmult, +6 trigger",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_8ball",
+    "name": "8号球",
+    "name_cn": "8号球",
+    "rarity": "common",
+    "tier": "C",
+    "effect": "special:tarot_chance, chance:0.25",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_misprint",
+    "name": "印刷错误",
+    "name_cn": "错印",
+    "rarity": "common",
+    "tier": "B",
+    "effect": "随机+10到+40 Mult | mult:random_23",
+    "cost": 3,
+    "tags": [
+      "倍数"
+    ],
+    "synergy": "随机流",
+    "combo_tips": "极不稳定"
+  },
+  {
+    "id": "j_dusk",
+    "name": "黄昏",
+    "name_cn": "黄昏",
+    "rarity": "rare",
+    "tier": "C",
+    "effect": "special:dusk",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_raised_fist",
+    "name": "举起拳头",
+    "name_cn": "举起拳头",
+    "rarity": "common",
+    "tier": "C",
+    "effect": "mult:lowest",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_chaos",
+    "name": "混乱小丑",
+    "name_cn": "混沌",
+    "rarity": "common",
+    "tier": "B",
+    "effect": "每回合，随机获得$1-$4 | special:reroll",
+    "cost": 3,
+    "tags": [
+      "经济"
+    ],
+    "synergy": "随机流",
+    "combo_tips": "看脸给钱"
+  },
+  {
+    "id": "j_steel",
+    "name": "钢铁小丑",
+    "name_cn": "钢铁小丑",
+    "rarity": "rare",
+    "tier": "C",
+    "effect": "xmult:steel",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_delayed",
+    "name": "延迟满足",
+    "name_cn": "延迟满足",
+    "rarity": "common",
+    "tier": "C",
+    "effect": "economy:discard",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_hack",
+    "name": "黑客",
+    "name_cn": "黑客",
+    "rarity": "rare",
+    "tier": "C",
+    "effect": "special:hack",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_gros_michel",
+    "name": "大麦克",
+    "name_cn": "大麦克",
+    "rarity": "common",
+    "tier": "S",
+    "effect": "每回合获得$5 | +15 mult",
+    "cost": 5,
+    "tags": [
+      "经济"
+    ],
+    "synergy": "经济流",
+    "combo_tips": "稳定经济核心"
+  },
+  {
+    "id": "j_business_card",
+    "name": "名片",
+    "name_cn": "名片",
+    "rarity": "common",
+    "tier": "C",
+    "effect": "economy:face, chance:0.5",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_supernova",
+    "name": "超新星",
+    "name_cn": "超新星",
+    "rarity": "common",
+    "tier": "B",
+    "effect": "打出顺子时，+30 Mult | mult:hand_used",
+    "cost": 4,
+    "tags": [
+      "顺子"
+    ],
+    "synergy": "顺子流",
+    "combo_tips": "顺子流核心"
+  },
+  {
+    "id": "j_ride_bus",
+    "name": "搭便车",
+    "name_cn": "搭便车",
+    "rarity": "common",
+    "tier": "C",
+    "effect": "mult:consecutive",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_space",
+    "name": "太空小丑",
+    "name_cn": "太空小丑",
+    "rarity": "rare",
+    "tier": "C",
+    "effect": "special:upgrade, chance:0.25",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_egg",
+    "name": "蛋",
+    "name_cn": "鸡蛋",
+    "rarity": "common",
+    "tier": "S",
+    "effect": "每回合，手牌消耗完时获得$3 | +3 economy",
+    "cost": 3,
+    "tags": [
+      "经济"
+    ],
+    "synergy": "滤牌流",
+    "combo_tips": "配合高消耗滤牌"
+  },
+  {
+    "id": "j_dna",
+    "name": "DNA",
+    "name_cn": "DNA",
+    "rarity": "legendary",
+    "tier": "C",
+    "effect": "special:copy",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_splash",
+    "name": "飞溅",
+    "name_cn": "飞溅",
+    "rarity": "common",
+    "tier": "C",
+    "effect": "special:splash",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_blue",
+    "name": "蓝小丑",
+    "name_cn": "蓝小丑",
+    "rarity": "common",
+    "tier": "C",
+    "effect": "chips:deck_remaining",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_sixth_sense",
+    "name": "第六感",
+    "name_cn": "第六感",
+    "rarity": "rare",
+    "tier": "C",
+    "effect": "special:soul",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_hiker",
+    "name": "徒步者",
+    "name_cn": "徒步者",
+    "rarity": "rare",
+    "tier": "C",
+    "effect": "chips:permanent_5",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_faceless",
+    "name": "无脸小丑",
+    "name_cn": "无脸小丑",
+    "rarity": "common",
+    "tier": "C",
+    "effect": "economy:face_discard, +3 count",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_green",
+    "name": "绿色小丑",
+    "name_cn": "绿色小丑",
+    "rarity": "common",
+    "tier": "C",
+    "effect": "mult:play, mult_neg:discard",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_todo",
+    "name": "待办清单",
+    "name_cn": "待办",
+    "rarity": "common",
+    "tier": "C",
+    "effect": "每回合第一次购买卡牌，获得$4 | economy:hand, hand:changing",
+    "cost": 3,
+    "tags": [
+      "经济"
+    ],
+    "synergy": "商店流",
+    "combo_tips": "购买触发"
+  },
+  {
+    "id": "j_cavendish",
+    "name": "卡文迪什",
+    "name_cn": "卡文迪什",
+    "rarity": "common",
+    "tier": "A",
+    "effect": "每回合第一次打出顺子时，+30 Mult | +3 xmult, destroy_chance:0.001",
+    "cost": 4,
+    "tags": [
+      "顺子"
+    ],
+    "synergy": "顺子流",
+    "combo_tips": "顺子Mult"
+  },
+  {
+    "id": "j_card_sharp",
+    "name": "老千",
+    "name_cn": "牌客",
+    "rarity": "rare",
+    "tier": "C",
+    "effect": "每回合，第一次打出同花时+25 Mult | +3 xmult, hand:repeat",
+    "cost": 4,
+    "tags": [
+      "同花"
+    ],
+    "synergy": "同花流",
+    "combo_tips": "同花专用"
+  },
+  {
+    "id": "j_red",
+    "name": "红小丑",
+    "name_cn": "红小丑",
+    "rarity": "common",
+    "tier": "C",
+    "effect": "mult:skip, +3 count",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_madness",
+    "name": "疯狂",
+    "name_cn": "疯狂",
+    "rarity": "rare",
+    "tier": "C",
+    "effect": "xmult:0.5, destroy:random",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_square",
+    "name": "方块小丑",
+    "name_cn": "方块小丑",
+    "rarity": "common",
+    "tier": "C",
+    "effect": "+4 chips, +4 hand_size",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_seance",
+    "name": "降灵会",
+    "name_cn": "降灵会",
+    "rarity": "rare",
+    "tier": "C",
+    "effect": "special:spectral",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_riff_raff",
+    "name": "流浪汉",
+    "name_cn": "即兴",
+    "rarity": "common",
+    "tier": "C",
+    "effect": "每回合，随机生成1张Joker | special:create_joker, +2 count",
+    "cost": 4,
+    "tags": [
+      "随机"
+    ],
+    "synergy": "随机流",
+    "combo_tips": "随机性大"
+  },
+  {
+    "id": "j_vampire",
+    "name": "吸血鬼",
+    "name_cn": "吸血鬼",
+    "rarity": "rare",
+    "tier": "A",
+    "effect": "每卖出1张带Mult的Joker，所有Joker获得X1.5 | xmult:augment, chance:0.1",
+    "cost": 6,
+    "tags": [
+      "倍率"
+    ],
+    "synergy": "卖出流",
+    "combo_tips": "卖Mult卡成长"
+  },
+  {
+    "id": "j_hologram",
+    "name": "全息",
+    "name_cn": "全息",
+    "rarity": "rare",
+    "tier": "C",
+    "effect": "xmult:card_added, value:0.25",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_vagabond",
+    "name": "流浪者",
+    "name_cn": "流浪者",
+    "rarity": "legendary",
+    "tier": "C",
+    "effect": "special:tarot, +4 cost",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_cloud9",
+    "name": "云9",
+    "name_cn": "云9",
+    "rarity": "rare",
+    "tier": "C",
+    "effect": "economy:nine",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_obelisk",
+    "name": "方尖碑",
+    "name_cn": "方尖碑",
+    "rarity": "legendary",
+    "tier": "C",
+    "effect": "xmult:uncommon_hand, value:0.2",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_midas",
+    "name": "迈达斯",
+    "name_cn": "迈达斯",
+    "rarity": "rare",
+    "tier": "A",
+    "effect": "所有普通牌变为金币牌，打出时获得$3 | special:gold",
+    "cost": 6,
+    "tags": [
+      "经济"
+    ],
+    "synergy": "金化流",
+    "combo_tips": "金化流核心"
+  },
+  {
+    "id": "j_luchador",
+    "name": "墨西哥摔跤手",
+    "name_cn": "墨西哥摔跤手",
+    "rarity": "rare",
+    "tier": "C",
+    "effect": "special:disable_boss",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_gift_card",
+    "name": "礼品卡",
+    "name_cn": "礼品卡",
+    "rarity": "rare",
+    "tier": "C",
+    "effect": "economy:selling",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_turtle_bean",
+    "name": "龟豆",
+    "name_cn": "龟豆",
+    "rarity": "rare",
+    "tier": "C",
+    "effect": "+5 hand_size",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_erosion",
+    "name": "侵蚀",
+    "name_cn": "侵蚀",
+    "rarity": "rare",
+    "tier": "C",
+    "effect": "mult:lower_cards",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_reserved",
+    "name": "预留停车",
+    "name_cn": "预留",
+    "rarity": "common",
+    "tier": "A",
+    "effect": "手牌上限+1，每回合生成1张待打出牌 | economy:face_hand, chance:0.5",
+    "cost": 5,
+    "tags": [
+      "手牌"
+    ],
+    "synergy": "控制流",
+    "combo_tips": "控制流核心"
+  },
+  {
+    "id": "j_mail_in",
+    "name": "邮件返利",
+    "name_cn": "邮件返利",
+    "rarity": "common",
+    "tier": "C",
+    "effect": "economy:rank_discard, rank:changing",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_hallucination",
+    "name": "幻觉",
+    "name_cn": "幻觉",
+    "rarity": "common",
+    "tier": "C",
+    "effect": "special:tarot, chance:0.5",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_juggler",
+    "name": "杂耍小丑",
+    "name_cn": "杂耍",
+    "rarity": "common",
+    "tier": "C",
+    "effect": "每回合，打出的手牌数量+1 Chip | +1 hand_size",
+    "cost": 3,
+    "tags": [
+      "筹码"
+    ],
+    "synergy": "多牌流",
+    "combo_tips": "多牌加筹码"
+  },
+  {
+    "id": "j_stone",
+    "name": "石头小丑",
+    "name_cn": "石头小丑",
+    "rarity": "rare",
+    "tier": "C",
+    "effect": "chips:stone",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_lucky_cat",
+    "name": "幸运猫",
+    "name_cn": "幸运猫",
+    "rarity": "rare",
+    "tier": "C",
+    "effect": "xmult:lucky, value:0.25",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_baseball",
+    "name": "棒球卡",
+    "name_cn": "棒球卡",
+    "rarity": "legendary",
+    "tier": "C",
+    "effect": "xmult:rare_joker, value:1.5",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_bull",
+    "name": "公牛",
+    "name_cn": "公牛",
+    "rarity": "rare",
+    "tier": "B",
+    "effect": "每回合，打出的手牌每有1张，+2 Chips | chips:money, +2 value",
+    "cost": 4,
+    "tags": [
+      "筹码"
+    ],
+    "synergy": "多牌流",
+    "combo_tips": "手牌越多越强"
+  },
+  {
+    "id": "j_diet_cola",
+    "name": "健怡可乐",
+    "name_cn": "健怡可乐",
+    "rarity": "rare",
+    "tier": "C",
+    "effect": "special:double",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_trading",
+    "name": "交易卡",
+    "name_cn": "交易卡",
+    "rarity": "rare",
+    "tier": "C",
+    "effect": "economy:single_discard, +3 value",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_flash",
+    "name": "闪卡",
+    "name_cn": "闪光",
+    "rarity": "rare",
+    "tier": "A",
+    "effect": "每回合，打出的第一张2-5获得X2 | mult:reroll",
+    "cost": 6,
+    "tags": [
+      "低牌"
+    ],
+    "synergy": "低牌流",
+    "combo_tips": "低牌X2"
+  },
+  {
+    "id": "j_popcorn",
+    "name": "爆米花",
+    "name_cn": "爆米花",
+    "rarity": "common",
+    "tier": "C",
+    "effect": "+20 mult, +4 mult_decay",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_spare_trousers",
+    "name": "备用裤",
+    "name_cn": "备用裤",
+    "rarity": "rare",
+    "tier": "C",
+    "effect": "mult:two_pair",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_ancient",
+    "name": "古老小丑",
+    "name_cn": "古老小丑",
+    "rarity": "legendary",
+    "tier": "C",
+    "effect": "xmult:1.5, suit:changing",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_ramen",
+    "name": "拉面",
+    "name_cn": "拉面",
+    "rarity": "rare",
+    "tier": "B",
+    "effect": "手牌全为同一花色时，所有Joker获得X1.5 | +2 xmult, mult_neg:discard",
+    "cost": 5,
+    "tags": [
+      "同花"
+    ],
+    "synergy": "同花流",
+    "combo_tips": "同花流必备"
+  },
+  {
+    "id": "j_seltzer",
+    "name": "苏打水",
+    "name_cn": "苏打水",
+    "rarity": "rare",
+    "tier": "C",
+    "effect": "special:reset, +10 count",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_castle",
+    "name": "城堡",
+    "name_cn": "城堡",
+    "rarity": "rare",
+    "tier": "C",
+    "effect": "chips:suit_discard, suit:changing",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_campfire",
+    "name": "篝火",
+    "name_cn": "篝火",
+    "rarity": "legendary",
+    "tier": "C",
+    "effect": "xmult:sell, value:0.25",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_golden_ticket",
+    "name": "黄金票",
+    "name_cn": "黄金票",
+    "rarity": "common",
+    "tier": "C",
+    "effect": "economy:gold",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_mr_bones",
+    "name": "骨头先生",
+    "name_cn": "骨头先生",
+    "rarity": "rare",
+    "tier": "S",
+    "effect": "跳过休息阶段不会失去金钱 | special:survive",
+    "cost": 4,
+    "tags": [
+      "特殊"
+    ],
+    "synergy": "跳过流",
+    "combo_tips": "跳过流核心"
+  },
+  {
+    "id": "j_acrobat",
+    "name": "杂技演员",
+    "name_cn": "杂技演员",
+    "rarity": "rare",
+    "tier": "C",
+    "effect": "+3 xmult, position:last",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_swashbuckler",
+    "name": "海盗",
+    "name_cn": "海盗",
+    "rarity": "common",
+    "tier": "C",
+    "effect": "mult:sell_value",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_troubadour",
+    "name": "吟游诗人",
+    "name_cn": "吟游诗人",
+    "rarity": "rare",
+    "tier": "C",
+    "effect": "+2 hand_size, +1 hand_size_neg",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_certificate",
+    "name": "证书",
+    "name_cn": "证书",
+    "rarity": "rare",
+    "tier": "C",
+    "effect": "special:seal",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_smeared",
+    "name": "涂抹小丑",
+    "name_cn": "涂抹",
+    "rarity": "rare",
+    "tier": "C",
+    "effect": "手牌含红心和方块各一张时，+40 Chips | special:suit_combine",
+    "cost": 4,
+    "tags": [
+      "花色"
+    ],
+    "synergy": "双花色流",
+    "combo_tips": "双花限定"
+  },
+  {
+    "id": "j_throwback",
+    "name": "怀旧",
+    "name_cn": "怀旧",
+    "rarity": "rare",
+    "tier": "C",
+    "effect": "xmult:skip, value:0.25",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_hanging_chad",
+    "name": "挂着的查德",
+    "name_cn": "挂着的查德",
+    "rarity": "common",
+    "tier": "C",
+    "effect": "special:first_card",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_glass",
+    "name": "玻璃小丑",
+    "name_cn": "玻璃小丑",
+    "rarity": "rare",
+    "tier": "C",
+    "effect": "xmult:glass, value:0.75",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_showman",
+    "name": "主持人",
+    "name_cn": "主持人",
+    "rarity": "rare",
+    "tier": "C",
+    "effect": "special:duplicates",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_wee",
+    "name": "小不点",
+    "name_cn": "小不点",
+    "rarity": "legendary",
+    "tier": "C",
+    "effect": "+8 chips",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_oops_6",
+    "name": "全是6",
+    "name_cn": "全是6",
+    "rarity": "rare",
+    "tier": "C",
+    "effect": "special:double_chance",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_idol",
+    "name": "偶像",
+    "name_cn": "偶像",
+    "rarity": "rare",
+    "tier": "C",
+    "effect": "+2 xmult, rank:changing, suit:changing",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_seeing_double",
+    "name": "看清双倍",
+    "name_cn": "看双",
+    "rarity": "rare",
+    "tier": "B",
+    "effect": "手牌全为同一花色时，+100 Chips | +2 xmult, hand:suit_mix",
+    "cost": 5,
+    "tags": [
+      "同花"
+    ],
+    "synergy": "同花流",
+    "combo_tips": "同花筹码"
+  },
+  {
+    "id": "j_matador",
+    "name": "斗牛士",
+    "name_cn": "斗牛士",
+    "rarity": "rare",
+    "tier": "B",
+    "effect": "每回合结束时，根据打的盲获得$1-$5 | economy:boss_trigger, +8 value",
+    "cost": 4,
+    "tags": [
+      "经济"
+    ],
+    "synergy": "进度流",
+    "combo_tips": "打盲给钱"
+  },
+  {
+    "id": "j_stuntman",
+    "name": "特技演员",
+    "name_cn": "特技演员",
+    "rarity": "legendary",
+    "tier": "C",
+    "effect": "+250 chips",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_invisible",
+    "name": "隐形小丑",
+    "name_cn": "隐形小丑",
+    "rarity": "legendary",
+    "tier": "S",
+    "effect": "手牌中每有1张，打出时+30 Mult | special:delayed_copy",
+    "cost": 6,
+    "tags": [
+      "倍数"
+    ],
+    "synergy": "控制流",
+    "combo_tips": "留牌Mult爆发"
+  },
+  {
+    "id": "j_satellite",
+    "name": "卫星",
+    "name_cn": "卫星",
+    "rarity": "rare",
+    "tier": "C",
+    "effect": "economy:unique_planet",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_driver_license",
+    "name": "驾照",
+    "name_cn": "驾照",
+    "rarity": "legendary",
+    "tier": "C",
+    "effect": "+3 xmult, +16 augment_count",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_astronomer",
+    "name": "天文学家",
+    "name_cn": "天文学家",
+    "rarity": "rare",
+    "tier": "C",
+    "effect": "special:free_planet",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_burnt",
+    "name": "烧焦小丑",
+    "name_cn": "烧焦",
+    "rarity": "legendary",
+    "tier": "D",
+    "effect": "打出5张同花色时，1张随机手牌复制为另一花色 | special:upgrade_discard",
+    "cost": 4,
+    "tags": [
+      "同花"
+    ],
+    "synergy": "同花流",
+    "combo_tips": "同花辅助"
+  },
+  {
+    "id": "j_bootstraps",
+    "name": "靴带",
+    "name_cn": "靴带",
+    "rarity": "rare",
+    "tier": "C",
+    "effect": "mult:money, +2 value, +5 interval",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_yorick",
+    "name": "尤里克",
+    "name_cn": "尤里克",
+    "rarity": "legendary",
+    "tier": "C",
+    "effect": "xmult:discard_count, +1 value, +23 count",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_chicot",
+    "name": "奇科",
+    "name_cn": "奇科",
+    "rarity": "legendary",
+    "tier": "C",
+    "effect": "special:disable_boss_all",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  },
+  {
+    "id": "j_perkeo",
+    "name": "佩尔基奥",
+    "name_cn": "佩尔基奥",
+    "rarity": "legendary",
+    "tier": "C",
+    "effect": "special:negative_copy",
+    "cost": 4,
+    "tags": [],
+    "synergy": [],
+    "combo_tips": ""
+  }
+]
