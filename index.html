@@ -8,13 +8,13 @@
 </head>
 <body>
 <header>
-<div class="header-inner">
-<div><h1>🃏 Balatro Joker图鉴</h1><div class="header-sub">150张小丑牌 · 中文完整版</div></div>
+<div class="hh">
+<div><h1>Balatro Joker图鉴</h1></div>
 </div>
 <nav>
-<button class="nav active" id="tab-jokers-btn" onclick="switchTab('jokers')">🃏 全部卡牌</button>
-<button class="nav" id="tab-search-btn" onclick="switchTab('search')">🔍 搜索</button>
-<button class="nav" id="tab-builds-btn" onclick="switchTab('builds')">🔥 组合攻略</button>
+<button class="nav active" id="tab-jokers-btn" onclick="switchTab('jokers')">全部卡牌</button>
+<button class="nav" id="tab-search-btn" onclick="switchTab('search')">搜索</button>
+<button class="nav" id="tab-builds-btn" onclick="switchTab('builds')">流派攻略</button>
 </nav>
 </header>
 <main>
@@ -25,7 +25,7 @@
 <span><span class="tier t-b">B</span> 强力</span>
 <span><span class="tier t-c">C</span> 可用</span>
 <span><span class="tier t-d">D</span> 偏弱</span>
-<span style="margin-left:auto;color:#475569;font-size:.8rem">点击卡牌查看详情和组合思路</span>
+<span style="margin-left:auto;color:#475569;font-size:.78rem">点击卡牌查看详情</span>
 </div>
 <div class="grid" id="joker-grid"></div>
 </div>
@@ -37,158 +37,133 @@
 </div>
 <div id="tab-builds" class="tab">
 <div class="hero">
-<h2>🎮 如何使用本图鉴</h2>
+<h2>使用说明</h2>
 <div class="hero-grid">
-<div class="hero-item"><span class="hi-num">1</span><div><h4>查看卡牌</h4><p>点击任意卡牌查看详情，包括效果、推荐协同和组合思路</p></div></div>
-<div class="hero-item"><span class="hi-num">2</span><div><h4>搜索功能</h4><p>在搜索栏输入卡牌名称（中文或英文）快速找到想要的卡</p></div></div>
-<div class="hero-item"><span class="hi-num">3</span><div><h4>流派攻略</h4><p>在「组合攻略」标签页查看各流派的详细操作步骤和核心卡牌</p></div></div>
-<div class="hero-item"><span class="hi-num">4</span><div><h4>Tier评价</h4><p>S=最强 A=核心 B=强力 C=可用 D=偏弱 — 仅供参考</p></div></div>
+<div class="hero-item"><span class="hi-num">1</span><div><h4>查看卡牌</h4><p>点击任意卡牌查看详情、协同和组合思路</p></div></div>
+<div class="hero-item"><span class="hi-num">2</span><div><h4>搜索</h4><p>输入中文名、英文名或效果关键词</p></div></div>
+<div class="hero-item"><span class="hi-num">3</span><div><h4>流派攻略</h4><p>点击核心卡牌可直接查看</p></div></div>
+<div class="hero-item"><span class="hi-num">4</span><div><h4>Tier说明</h4><p>S最强 A核心 B强力 C可用 D偏弱</p></div></div>
 </div>
 </div>
-<div class="build-section">
-<h2>🔥 流派攻略</h2>
-<p>每个流派都有详细的操作步骤，点击核心卡牌可直接查看该卡详情</p>
-<div class="build-card">
-<div class="build-header">
-<span class="build-icon">💰</span>
-<div class="build-title"><h3>经济刷钱流</h3><p>最稳定的初期流派，快速积累金钱</p></div>
-<div class="build-badges">
-<span class="diff-badge" style="background:#22c55e">简单</span>
-<span class="tier-badge t-s">TS</span>
+<div class="build-section"><h2>流派攻略</h2><div class="build-card">
+<div class="bh">
+<span class="bi" style="font-size:1.4rem">TTS</span>
+<div class="bt"><h3>经济刷钱流</h3><p>最稳定的初期流派，快速积累金钱</p></div>
+<div class="bb">
+<span class="db" style="background:#22c55e">简单</span>
+<span class="tb t-s">TS</span>
 </div>
 </div>
-<div class="build-steps"><h4>📋 操作步骤</h4><ol><li>前期核心：小丑(Joker)+信用卡(Credit Card)，允许负金钱超前消费</li><li>稳定收入：大麦克(Gros Michel)每回合稳定$5</li><li>卖牌双倍：甜心(Sweetheart)第一次卖牌双倍金钱</li><li>商店加成：门(Door)+折扣(Discount)最大化购买力</li><li>运气补充：幸运牌(Lucky Card)10%概率+$20和+40 Mult</li></ol></div>
-<div class="build-cores"><h4>⭐ 核心卡牌（点击查看）</h4>
-<div class="build-core-cards"><span class="bc" onclick="show('j_joker')">joker</span><span class="bc" onclick="show('j_credit_card')">credit_card</span><span class="bc" onclick="show('j_gros_michel')">gros_michel</span><span class="bc" onclick="show('j_sweetheart')">sweetheart</span><span class="bc" onclick="show('j_door')">door</span><span class="bc" onclick="show('j_discount')">discount</span></div></div>
-<div class="build-tip">💡 核心思路：信用卡超前消费+反复卖牌刷钱，快速购买强力卡</div>
+<div class="bs"><h4>操作步骤</h4><ol style="counter-reset:steps"><li>前期核心：小丑(Joker)+信用卡(Credit Card)，允许负金钱超前消费</li><li>稳定收入：大麦克(Gros Michel)每回合稳定$5</li><li>卖牌双倍：甜心(Sweetheart)第一次卖牌双倍金钱</li><li>商店加成：门(Door)+折扣(Discount)最大化购买力</li><li>运气补充：幸运牌(Lucky Card)10%概率+$20和+40 Mult</li></ol></div>
+<div class="bc"><h4>核心卡牌</h4><div class="bcc"><span class="bchip" onclick="show('j_joker')">joker</span><span class="bchip" onclick="show('j_credit_card')">credit_card</span><span class="bchip" onclick="show('j_gros_michel')">gros_michel</span><span class="bchip" onclick="show('j_sweetheart')">sweetheart</span><span class="bchip" onclick="show('j_door')">door</span><span class="bchip" onclick="show('j_discount')">discount</span></div></div>
+<div class="bt2">💡 核心思路：信用卡超前消费+反复卖牌刷钱，快速购买强力卡</div>
 </div><div class="build-card">
-<div class="build-header">
-<span class="build-icon">🎯</span>
-<div class="build-title"><h3>人头牌流</h3><p>J/Q/K专属流派，人头牌打出时触发高额倍数</p></div>
-<div class="build-badges">
-<span class="diff-badge" style="background:#f59e0b">中等</span>
-<span class="tier-badge t-s">TS</span>
+<div class="bh">
+<span class="bi" style="font-size:1.4rem">TTS</span>
+<div class="bt"><h3>人头牌流</h3><p>J/Q/K专属流派，人头牌打出时触发高额倍数</p></div>
+<div class="bb">
+<span class="db" style="background:#f59e0b">中等</span>
+<span class="tb t-s">TS</span>
 </div>
 </div>
-<div class="build-steps"><h4>📋 操作步骤</h4><ol><li>核心倍率：照片(Photograph)，人头牌打出时X2</li><li>Mult加成：笑脸(Smiley)+恐怖脸(Scary Face)+数字(Digital)</li><li>Chips保障：人头牌相应小丑保证分值</li><li>升级：蓝图(Blueprint)复制照片，双照片叠加</li><li>配合：拉面(Ramen)同花X1.5倍率进一步增强</li></ol></div>
-<div class="build-cores"><h4>⭐ 核心卡牌（点击查看）</h4>
-<div class="build-core-cards"><span class="bc" onclick="show('j_photograph')">photograph</span><span class="bc" onclick="show('j_scary_face')">scary_face</span><span class="bc" onclick="show('j_smiley')">smiley</span><span class="bc" onclick="show('j_digital')">digital</span><span class="bc" onclick="show('j_blueprint')">blueprint</span><span class="bc" onclick="show('j_ramen')">ramen</span></div></div>
-<div class="build-tip">💡 人头牌流中后期最强，前期用对子过渡攒钱</div>
+<div class="bs"><h4>操作步骤</h4><ol style="counter-reset:steps"><li>核心倍率：照片(Photograph)，人头牌打出时X2</li><li>Mult加成：笑脸(Smiley)+恐怖脸(Scary Face)+数字(Digital)</li><li>Chips保障：人头牌相应小丑保证分值</li><li>升级：蓝图(Blueprint)复制照片，双照片叠加</li><li>配合：拉面(Ramen)同花X1.5倍率进一步增强</li></ol></div>
+<div class="bc"><h4>核心卡牌</h4><div class="bcc"><span class="bchip" onclick="show('j_photograph')">photograph</span><span class="bchip" onclick="show('j_scary_face')">scary_face</span><span class="bchip" onclick="show('j_smiley')">smiley</span><span class="bchip" onclick="show('j_digital')">digital</span><span class="bchip" onclick="show('j_blueprint')">blueprint</span><span class="bchip" onclick="show('j_ramen')">ramen</span></div></div>
+<div class="bt2">💡 人头牌流中后期最强，前期用对子过渡攒钱</div>
 </div><div class="build-card">
-<div class="build-header">
-<span class="build-icon">🔄</span>
-<div class="build-title"><h3>顺子流</h3><p>专注打顺子牌型，叠加顺子专用加成</p></div>
-<div class="build-badges">
-<span class="diff-badge" style="background:#f59e0b">中等</span>
-<span class="tier-badge t-a">TA</span>
+<div class="bh">
+<span class="bi" style="font-size:1.4rem">TTS</span>
+<div class="bt"><h3>三条流</h3><p>专注打三条(Three of a Kind)，最容易达成的强力流派</p></div>
+<div class="bb">
+<span class="db" style="background:#22c55e">简单</span>
+<span class="tb t-s">TS</span>
 </div>
 </div>
-<div class="build-steps"><h4>📋 操作步骤</h4><ol><li>核心Mult：超新星(Supernova)+鱿鱼(Squid)，顺子+30和+40 Mult</li><li>倍率爆发：木桶(Barrel)，顺子X2叠加</li><li>Chips加成：卡文迪什(Cavendish)，顺子+30 Mult</li><li>辅助卡：胶片(Film)滤牌，保证顺子成功率</li><li>关键：需要抽滤牌保证顺子</li></ol></div>
-<div class="build-cores"><h4>⭐ 核心卡牌（点击查看）</h4>
-<div class="build-core-cards"><span class="bc" onclick="show('j_supernova')">supernova</span><span class="bc" onclick="show('j_squid')">squid</span><span class="bc" onclick="show('j_barrel')">barrel</span><span class="bc" onclick="show('j_cavendish')">cavendish</span><span class="bc" onclick="show('j_film')">film</span><span class="bc" onclick="show('j_smooth')">smooth</span></div></div>
-<div class="build-tip">💡 顺子需要5张不同点数，稳定性较低但上限高</div>
+<div class="bs"><h4>操作步骤</h4><ol style="counter-reset:steps"><li>核心Mult：雷达(Radar)，打出三条时+50 Mult</li><li>倍率增强：崩溃(Crash) X1.5 + 泰坦(Titan) X2</li><li>Chips加成：大厅(Hall)，三条+80 Chips</li><li>辅助：抽象(Abstract)，Joker数量多时+15 Mult</li><li>可选：蓝图(Blueprint)复制雷达，双雷达+100 Mult</li></ol></div>
+<div class="bc"><h4>核心卡牌</h4><div class="bcc"><span class="bchip" onclick="show('j_radar')">radar</span><span class="bchip" onclick="show('j_crash')">crash</span><span class="bchip" onclick="show('j_titan')">titan</span><span class="bchip" onclick="show('j_hall')">hall</span><span class="bchip" onclick="show('j_abstract')">abstract</span><span class="bchip" onclick="show('j_blueprint')">blueprint</span></div></div>
+<div class="bt2">💡 三条最容易达成，稳定性高，推荐新手</div>
 </div><div class="build-card">
-<div class="build-header">
-<span class="build-icon">💎</span>
-<div class="build-title"><h3>三条流</h3><p>专注打三条(Three of a Kind)，最容易达成的强力流派</p></div>
-<div class="build-badges">
-<span class="diff-badge" style="background:#22c55e">简单</span>
-<span class="tier-badge t-s">TS</span>
+<div class="bh">
+<span class="bi" style="font-size:1.4rem">TTS</span>
+<div class="bt"><h3>跳过流</h3><p>跳过休息阶段不掉钱并获得额外奖励</p></div>
+<div class="bb">
+<span class="db" style="background:#f59e0b">中等</span>
+<span class="tb t-s">TS</span>
 </div>
 </div>
-<div class="build-steps"><h4>📋 操作步骤</h4><ol><li>核心Mult：雷达(Radar)，打出三条时+50 Mult</li><li>倍率增强：崩溃(Crash) X1.5 + 泰坦(Titan) X2</li><li>Chips加成：大厅(Hall)，三条+80 Chips</li><li>辅助：抽象(Abstract)，Joker数量多时+15 Mult</li><li>可选：蓝图(Blueprint)复制雷达，双雷达+100 Mult</li></ol></div>
-<div class="build-cores"><h4>⭐ 核心卡牌（点击查看）</h4>
-<div class="build-core-cards"><span class="bc" onclick="show('j_radar')">radar</span><span class="bc" onclick="show('j_crash')">crash</span><span class="bc" onclick="show('j_titan')">titan</span><span class="bc" onclick="show('j_hall')">hall</span><span class="bc" onclick="show('j_abstract')">abstract</span><span class="bc" onclick="show('j_blueprint')">blueprint</span></div></div>
-<div class="build-tip">💡 三条最容易达成，稳定性高，推荐新手</div>
+<div class="bs"><h4>操作步骤</h4><ol style="counter-reset:steps"><li>核心：骨头先生(Mr. Bones)，跳过休息不扣钱</li><li>爆发奖励：夜贼(Burglar)，跳过时+$20+随机Lucky Card</li><li>后期增强：加百列(Gabriel)，跳过时所有Joker X1.5</li><li>可选：混沌(Chaos)，跳过时+随机Mult爆发</li><li>配合：邪恶小丑(Evil Joker)，每回合X1.2成长</li></ol></div>
+<div class="bc"><h4>核心卡牌</h4><div class="bcc"><span class="bchip" onclick="show('j_mr_bones')">mr_bones</span><span class="bchip" onclick="show('j_burglar')">burglar</span><span class="bchip" onclick="show('j_gabriel')">gabriel</span><span class="bchip" onclick="show('j_evil')">evil</span><span class="bchip" onclick="show('j_chaos')">chaos</span></div></div>
+<div class="bt2">💡 跳过流适合长局，越跳过越强</div>
 </div><div class="build-card">
-<div class="build-header">
-<span class="build-icon">🌈</span>
-<div class="build-title"><h3>同花流</h3><p>手牌全为同一花色时触发高额加成</p></div>
-<div class="build-badges">
-<span class="diff-badge" style="background:#ef4444">困难</span>
-<span class="tier-badge t-a">TA</span>
+<div class="bh">
+<span class="bi" style="font-size:1.4rem">TTS</span>
+<div class="bt"><h3>复制流</h3><p>用蓝图/头脑风暴复制强力 Joker效果</p></div>
+<div class="bb">
+<span class="db" style="background:#f59e0b">需要理解</span>
+<span class="tb t-s">TS</span>
 </div>
 </div>
-<div class="build-steps"><h4>📋 操作步骤</h4><ol><li>核心倍率：拉面(Ramen)，同花时所有Joker X1.5</li><li>同花X2：卡通(Cartoon)，打出同花时X2</li><li>Chips：花色对应小丑+涂抹+挥剑</li><li>特殊：克里特，同花顺时+120 Chips</li><li>辅助：蓝图复制拉面或卡通，最大化倍率</li></ol></div>
-<div class="build-cores"><h4>⭐ 核心卡牌（点击查看）</h4>
-<div class="build-core-cards"><span class="bc" onclick="show('j_ramen')">ramen</span><span class="bc" onclick="show('j_cartoon')">cartoon</span><span class="bc" onclick="show('j_greedy')">greedy</span><span class="bc" onclick="show('j_lusty')">lusty</span><span class="bc" onclick="show('j_wrathful')">wrathful</span><span class="bc" onclick="show('j_gluttonous')">gluttonous</span></div></div>
-<div class="build-tip">💡 同花需要5张同花色，难度高但后期几乎无敌</div>
+<div class="bs"><h4>操作步骤</h4><ol style="counter-reset:steps"><li>核心：蓝图(Blueprint)，复制右边 Joker效果</li><li>核心2：头脑风暴(Brainstorm)，复制左边 Joker效果</li><li>强力目标：照片、雷达、拉面等</li><li>操作：把蓝图放强力卡右边，实现双倍效果</li><li>进阶：三卡槽让蓝图和头脑风暴互相复制，极限复制</li></ol></div>
+<div class="bc"><h4>核心卡牌</h4><div class="bcc"><span class="bchip" onclick="show('j_blueprint')">blueprint</span><span class="bchip" onclick="show('j_brainstorm')">brainstorm</span><span class="bchip" onclick="show('j_photograph')">photograph</span><span class="bchip" onclick="show('j_radar')">radar</span><span class="bchip" onclick="show('j_ramen')">ramen</span></div></div>
+<div class="bt2">💡 复制流后期最强，理解卡槽位置是关键</div>
 </div><div class="build-card">
-<div class="build-header">
-<span class="build-icon">⚡</span>
-<div class="build-title"><h3>跳过流</h3><p>跳过休息阶段不掉钱并获得额外奖励</p></div>
-<div class="build-badges">
-<span class="diff-badge" style="background:#f59e0b">中等</span>
-<span class="tier-badge t-s">TS</span>
+<div class="bh">
+<span class="bi" style="font-size:1.4rem">TTS</span>
+<div class="bt"><h3>隐形流</h3><p>留牌不打触发隐形小丑/H先生强力效果</p></div>
+<div class="bb">
+<span class="db" style="background:#f59e0b">需要技术</span>
+<span class="tb t-s">TS</span>
 </div>
 </div>
-<div class="build-steps"><h4>📋 操作步骤</h4><ol><li>核心：骨头先生(Mr. Bones)，跳过休息不扣钱</li><li>爆发奖励：夜贼(Burglar)，跳过时+$20+随机Lucky Card</li><li>后期增强：加百列(Gabriel)，跳过时所有Joker X1.5</li><li>可选：混沌(Chaos)，跳过时+随机Mult爆发</li><li>配合：邪恶小丑(Evil Joker)，每回合X1.2成长</li></ol></div>
-<div class="build-cores"><h4>⭐ 核心卡牌（点击查看）</h4>
-<div class="build-core-cards"><span class="bc" onclick="show('j_mr_bones')">mr_bones</span><span class="bc" onclick="show('j_burglar')">burglar</span><span class="bc" onclick="show('j_gabriel')">gabriel</span><span class="bc" onclick="show('j_evil')">evil</span><span class="bc" onclick="show('j_chaos')">chaos</span></div></div>
-<div class="build-tip">💡 跳过流适合长局，越跳过越强</div>
+<div class="bs"><h4>操作步骤</h4><ol style="counter-reset:steps"><li>核心：隐形小丑(Invisible Joker)，手牌每张打出时+30 Mult</li><li>核心2：H先生(Mr. H)，每留1张手牌，所有 Joker X1.1</li><li>操作：故意留牌，关键回合一次性爆发</li><li>辅助：预留(Reserved)，增加手牌上限增强留牌能力</li><li>注意：留牌放弃当回合部分收益，需规划爆发时机</li></ol></div>
+<div class="bc"><h4>核心卡牌</h4><div class="bcc"><span class="bchip" onclick="show('j_invisible')">invisible</span><span class="bchip" onclick="show('j_mr_h')">mr_h</span><span class="bchip" onclick="show('j_reserved')">reserved</span><span class="bchip" onclick="show('j_dna')">dna</span></div></div>
+<div class="bt2">💡 隐形流技术含量高，后期配合邪恶小丑极强</div>
 </div><div class="build-card">
-<div class="build-header">
-<span class="build-icon">📦</span>
-<div class="build-title"><h3>Joker数量流</h3><p> Joker越多越强，简单粗暴的流派</p></div>
-<div class="build-badges">
-<span class="diff-badge" style="background:#22c55e">简单</span>
-<span class="tier-badge t-a">TA</span>
+<div class="bh">
+<span class="bi" style="font-size:1.4rem">TTA</span>
+<div class="bt"><h3>Joker数量流</h3><p> Joker越多越强，简单粗暴的流派</p></div>
+<div class="bb">
+<span class="db" style="background:#22c55e">简单</span>
+<span class="tb t-a">TA</span>
 </div>
 </div>
-<div class="build-steps"><h4>📋 操作步骤</h4><ol><li>核心：抽象(Abstract)，每3张Joker+15 Mult</li><li>成长：模板(Stencil)， Joker越多最后一张+Mult越多</li><li>Chips：石头小丑(Stone Joker)，每 Joker+8 Chips</li><li>爆发：超级小丑(Mega Joker)，每10张 Joker+100 Mult</li><li>配合：蓝图+头脑风暴复制强力卡，省卡槽</li></ol></div>
-<div class="build-cores"><h4>⭐ 核心卡牌（点击查看）</h4>
-<div class="build-core-cards"><span class="bc" onclick="show('j_abstract')">abstract</span><span class="bc" onclick="show('j_stencil')">stencil</span><span class="bc" onclick="show('j_stone_joker')">stone_joker</span><span class="bc" onclick="show('j_mega')">mega</span><span class="bc" onclick="show('j_blueprint')">blueprint</span><span class="bc" onclick="show('j_brainstorm')">brainstorm</span></div></div>
-<div class="build-tip">💡  Joker数量流简单粗暴，凑够数量后强度极高</div>
+<div class="bs"><h4>操作步骤</h4><ol style="counter-reset:steps"><li>核心：抽象(Abstract)，每3张Joker+15 Mult</li><li>成长：模板(Stencil)， Joker越多最后一张+Mult越多</li><li>Chips：石头小丑(Stone Joker)，每 Joker+8 Chips</li><li>爆发：超级小丑(Mega Joker)，每10张 Joker+100 Mult</li><li>配合：蓝图+头脑风暴复制强力卡，省卡槽</li></ol></div>
+<div class="bc"><h4>核心卡牌</h4><div class="bcc"><span class="bchip" onclick="show('j_abstract')">abstract</span><span class="bchip" onclick="show('j_stencil')">stencil</span><span class="bchip" onclick="show('j_stone_joker')">stone_joker</span><span class="bchip" onclick="show('j_mega')">mega</span><span class="bchip" onclick="show('j_blueprint')">blueprint</span><span class="bchip" onclick="show('j_brainstorm')">brainstorm</span></div></div>
+<div class="bt2">💡  Joker数量流简单粗暴，凑够数量后强度极高</div>
 </div><div class="build-card">
-<div class="build-header">
-<span class="build-icon">🃏</span>
-<div class="build-title"><h3>复制流</h3><p>用蓝图/头脑风暴复制强力 Joker效果</p></div>
-<div class="build-badges">
-<span class="diff-badge" style="background:#f59e0b">需要理解</span>
-<span class="tier-badge t-s">TS</span>
+<div class="bh">
+<span class="bi" style="font-size:1.4rem">TTA</span>
+<div class="bt"><h3>同花流</h3><p>手牌全为同一花色时触发高额加成</p></div>
+<div class="bb">
+<span class="db" style="background:#ef4444">困难</span>
+<span class="tb t-a">TA</span>
 </div>
 </div>
-<div class="build-steps"><h4>📋 操作步骤</h4><ol><li>核心：蓝图(Blueprint)，复制右边 Joker效果</li><li>核心2：头脑风暴(Brainstorm)，复制左边 Joker效果</li><li>强力目标：照片、雷达、拉面等</li><li>操作：把蓝图放强力卡右边，实现双倍效果</li><li>进阶：三卡槽让蓝图和头脑风暴互相复制，极限复制</li></ol></div>
-<div class="build-cores"><h4>⭐ 核心卡牌（点击查看）</h4>
-<div class="build-core-cards"><span class="bc" onclick="show('j_blueprint')">blueprint</span><span class="bc" onclick="show('j_brainstorm')">brainstorm</span><span class="bc" onclick="show('j_photograph')">photograph</span><span class="bc" onclick="show('j_radar')">radar</span><span class="bc" onclick="show('j_ramen')">ramen</span></div></div>
-<div class="build-tip">💡 复制流后期最强，理解卡槽位置是关键</div>
+<div class="bs"><h4>操作步骤</h4><ol style="counter-reset:steps"><li>核心倍率：拉面(Ramen)，同花时所有Joker X1.5</li><li>同花X2：卡通(Cartoon)，打出同花时X2</li><li>Chips：花色对应小丑（贪婪/淫欲/愤怒/贪吃）</li><li>特殊：克里特(Cretan)，同花顺时+120 Chips</li><li>辅助：蓝图复制拉面或卡通，最大化倍率</li></ol></div>
+<div class="bc"><h4>核心卡牌</h4><div class="bcc"><span class="bchip" onclick="show('j_ramen')">ramen</span><span class="bchip" onclick="show('j_cartoon')">cartoon</span><span class="bchip" onclick="show('j_greedy')">greedy</span><span class="bchip" onclick="show('j_lusty')">lusty</span><span class="bchip" onclick="show('j_wrathful')">wrathful</span><span class="bchip" onclick="show('j_gluttonous')">gluttonous</span></div></div>
+<div class="bt2">💡 同花需要5张同花色，难度高但后期几乎无敌</div>
 </div><div class="build-card">
-<div class="build-header">
-<span class="build-icon">👻</span>
-<div class="build-title"><h3>隐形流</h3><p>留牌不打触发隐形小丑/H先生强力效果</p></div>
-<div class="build-badges">
-<span class="diff-badge" style="background:#f59e0b">需要技术</span>
-<span class="tier-badge t-s">TS</span>
+<div class="bh">
+<span class="bi" style="font-size:1.4rem">TTA</span>
+<div class="bt"><h3>顺子流</h3><p>专注打顺子牌型，叠加顺子专用加成</p></div>
+<div class="bb">
+<span class="db" style="background:#f59e0b">中等</span>
+<span class="tb t-a">TA</span>
 </div>
 </div>
-<div class="build-steps"><h4>📋 操作步骤</h4><ol><li>核心：隐形小丑(Invisible Joker)，手牌每张打出时+30 Mult</li><li>核心2：H先生(Mr. H)，每留1张手牌，所有 Joker X1.1</li><li>操作：故意留牌，关键回合一次性爆发</li><li>辅助：预留(Reserved)，增加手牌上限增强留牌能力</li><li>注意：留牌放弃当回合部分收益，需规划爆发时机</li></ol></div>
-<div class="build-cores"><h4>⭐ 核心卡牌（点击查看）</h4>
-<div class="build-core-cards"><span class="bc" onclick="show('j_invisible')">invisible</span><span class="bc" onclick="show('j_mr_h')">mr_h</span><span class="bc" onclick="show('j_reserved')">reserved</span><span class="bc" onclick="show('j_dna')">dna</span></div></div>
-<div class="build-tip">💡 隐形流技术含量高，后期配合邪恶小丑极强</div>
+<div class="bs"><h4>操作步骤</h4><ol style="counter-reset:steps"><li>核心Mult：超新星(Supernova)+鱿鱼(Squid)，顺子+30和+40 Mult</li><li>倍率爆发：木桶(Barrel)，顺子X2叠加</li><li>Chips加成：卡文迪什(Cavendish)，顺子+30 Mult</li><li>辅助卡：胶片(Film)滤牌，保证顺子成功率</li><li>关键：需要抽滤牌保证顺子</li></ol></div>
+<div class="bc"><h4>核心卡牌</h4><div class="bcc"><span class="bchip" onclick="show('j_supernova')">supernova</span><span class="bchip" onclick="show('j_squid')">squid</span><span class="bchip" onclick="show('j_barrel')">barrel</span><span class="bchip" onclick="show('j_cavendish')">cavendish</span><span class="bchip" onclick="show('j_film')">film</span><span class="bchip" onclick="show('j_smooth')">smooth</span></div></div>
+<div class="bt2">💡 顺子需要5张不同点数，稳定性较低但上限高</div>
 </div><div class="build-card">
-<div class="build-header">
-<span class="build-icon">🎲</span>
-<div class="build-title"><h3>概率爆发流</h3><p>依赖概率触发，高风险高回报</p></div>
-<div class="build-badges">
-<span class="diff-badge" style="background:#ef4444">看脸</span>
-<span class="tier-badge t-b">TB</span>
+<div class="bh">
+<span class="bi" style="font-size:1.4rem">TTB</span>
+<div class="bt"><h3>概率爆发流</h3><p>依赖概率触发，高风险高回报</p></div>
+<div class="bb">
+<span class="db" style="background:#ef4444">看脸</span>
+<span class="tb t-b">TB</span>
 </div>
 </div>
-<div class="build-steps"><h4>📋 操作步骤</h4><ol><li>稳定版：巴黎水(Perrier)，随机触发一个已触发效果两次</li><li>概率触发：等离子球(Plasma Globe)，25%概率触发两次</li><li>经济爆发：幸运牌(Lucky Card)，10%概率+$20和+40 Mult</li><li>运气补充：混沌(Chaos)，随机+20~50 Mult</li><li>注意：概率流不稳定，适合娱乐或运气好时使用</li></ol></div>
-<div class="build-cores"><h4>⭐ 核心卡牌（点击查看）</h4>
-<div class="build-core-cards"><span class="bc" onclick="show('j_perrier')">perrier</span><span class="bc" onclick="show('j_plasma_globe')">plasma_globe</span><span class="bc" onclick="show('j_lucky_card')">lucky_card</span><span class="bc" onclick="show('j_chaos')">chaos</span></div></div>
-<div class="build-tip">💡 巴黎水最稳定，其他都看脸</div>
-</div>
-</div>
-</div>
+<div class="bs"><h4>操作步骤</h4><ol style="counter-reset:steps"><li>稳定版：巴黎水(Perrier)，随机触发一个已触发效果两次</li><li>概率触发：等离子球(Plasma Globe)，25%概率触发两次</li><li>经济爆发：幸运牌(Lucky Card)，10%概率+$20和+40 Mult</li><li>运气补充：混沌(Chaos)，随机+20~50 Mult</li><li>注意：概率流不稳定，适合娱乐或运气好时使用</li></ol></div>
+<div class="bc"><h4>核心卡牌</h4><div class="bcc"><span class="bchip" onclick="show('j_perrier')">perrier</span><span class="bchip" onclick="show('j_plasma_globe')">plasma_globe</span><span class="bchip" onclick="show('j_lucky_card')">lucky_card</span><span class="bchip" onclick="show('j_chaos')">chaos</span></div></div>
+<div class="bt2">💡 巴黎水最稳定，其他都看脸</div>
+</div></div></div>
 </main>
-<div id="modal" class="modal">
-<div class="mc">
-<span class="mx" onclick="closeModal()">✕</span>
-<div id="modal-body"></div>
-</div>
-</div>
-<script src="data.js"></script>
-<script src="app.js"></script>
-</body>
-</html>
